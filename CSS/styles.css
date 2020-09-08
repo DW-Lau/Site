@@ -1,0 +1,30 @@
+body{
+  margin:0;
+  padding: 0;
+  background: #c99f88;
+  display: flex;
+}
+body,#bloc_contenu{
+  min-height:100vh;
+}
+#bloc_contenu{
+  position: relative;
+  left:7%;
+  display:flex;
+  flex-direction: column;
+  z-index: 1;
+  min-width: 95%;
+}
+
+
+#p_contenu{
+background:#516777 ;
+min-height:100vh;
+width: 100%;
+display: flex;
+flex-direction: column;
+}
+#p_resume{
+max-width: 80%;
+min-width: 50%;
+}

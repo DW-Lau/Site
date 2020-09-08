@@ -1,0 +1,46 @@
+
+#slider li a{
+    font-family: 'Raleway', sans-serif;
+}
+.nav_links{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.fas,.far,li a{
+    color:white;
+}
+#logo_Title,.logo{
+    height:100px;
+    width:100px;
+    margin:5px;
+}
+#slider{
+    height:75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 55px;
+    border-radius: 0 5px 5px 0;
+    overflow-x: hidden;
+}
+/* #slider:hover, li:hover{
+    width:125px;
+    overflow:visible;
+    -webkit-transition:width .1s linear;
+    transition:width .1s linear;
+    z-index: 500;
+} */
+ul{
+    height: 100%;
+    list-style: none;
+    padding: 0;
+}
+#slider li{
+    display: flex;
+    align-items: center;
+    width:50px;
+}
+#slider li,#nav_liens li{
+    height:25%;
+}
