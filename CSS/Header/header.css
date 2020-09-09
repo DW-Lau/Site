@@ -3,27 +3,17 @@ header{
     margin: 0;
     position: fixed;
     z-index: 50;
-    max-width: 6%;
-    min-width: 3%;
+    max-width: 7%;
+    min-width: 4%;
     background: #242424;
-  }
-  header,#nav_liens{
-    
   }
   .fas,.far{
     display: inline;
     font-size: 1.5em;
-    border-left: solid #888888 1px;
-    margin-left: 5px;
     max-width:55px;
     min-width: 54px;
     text-align: center;
     vertical-align: middle;
-  }
-  a{
-    text-decoration:none;
-    margin:0;
-    padding: 0;
   }
 #nav_liens{
   margin: 0;
