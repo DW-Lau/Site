@@ -1,0 +1,65 @@
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height:100vh;
+  margin: 0;
+  position: fixed;
+  max-width: 7%;
+  min-width: 4%;
+  background: #242424;
+}
+.fas,.far{
+  display: inline;
+  font-size: 2em;
+  max-width:55px;
+  min-width: 54px;
+  text-align: center;
+  vertical-align: middle;
+}
+.fas,.far,li a{
+  color:white;
+}
+#slider{
+  height:70vh;
+}
+.nav_links{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+#nav_liens{
+  height: 13vh;
+  border-top: #fff 2px solid;
+  border-radius: 5%;
+  background: #393939;
+}
+#slider li a,#nav_liens li a{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.8em;
+  margin-left: 5px;
+  border-left: solid #888888 1px;
+}
+#slider li,#nav_liens li{
+  height: 20%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 5px 0 0 0 ;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+
+.dll_CV:hover,.popup_mail:hover{
+  cursor: alias;
+}

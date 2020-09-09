@@ -13,7 +13,6 @@ textCV.style.display="none";
 textContact.style.display="none";
 
 
-
 barreMenu.addEventListener("mouseenter",function(){
   textAbout.style.display="inline";
   textGalerie.style.display="inline";
