@@ -28,6 +28,12 @@ body,#bloc_contenu{
   min-height:100vh;
   width: 100%;
 }
+.puzzle_blanc{
+  background: url("../Images/Fonds/puzBlanc1.png") center / contain no-repeat;
+  height: 10%;
+  transform: rotateX(180deg);
+  max-width: 15%;
+}
 #p_contenu{
   display: flex;
   flex-direction: column;
