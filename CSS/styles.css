@@ -1,7 +1,7 @@
 body{
   margin:0;
   padding: 0;
-  background: #c8ccce;
+  background: #ffffff;
   display: flex;
 }
 a{
@@ -14,32 +14,32 @@ body,#bloc_contenu{
 }
 #bloc_contenu{
   position: relative;
-  left:5%;
+  left:65px;
   display:flex;
   flex-direction: column;
-  z-index: 1;
   min-width: 90%;
   max-width: 95%;
 }
 /* c99f88 */
 
 .bloc_home{
-  background:#51adf0;
+  /* background:#516777; */
+  background-image: url("../Images/office.jpg");
   min-height:100vh;
   width: 100%;
-  display: flex;
-  flex-direction: column;
 }
 #p_contenu{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgba(47, 81, 98, 0.95);
   width: 100%;
   margin: auto;
+  height: 100vh;
 }
 #top_content{
-  width: 100%;
+  padding: 2em;
   text-align: center;
-  border-bottom: solid 1px white;
-  border-radius: 0 0 50% 50%;
-  background:linear-gradient(to top, #285c82,#51adf0);
 }
 #top_content h1,#top_content h2,#p_resume h2{
   font-family: 'Raleway', sans-serif,Light;
@@ -48,25 +48,21 @@ body,#bloc_contenu{
 }
 #top_content h1{
   font-size: 3em;
-  margin: 0;
-  
-}
-#top_content h2{
-  font-size: 2.5em;
-  margin: 5px 0 0 0 ;
+  margin: auto; 
 }
 #p_contenu article{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-left: 5%;
-  margin-right: 10%;
-
+  padding-left: 5%;
+  padding-right: 5%;
+  background: #51adf0;
+  margin: 2em auto;
 }
 #p_contenu article h2{
   font-size: 1.8em;
   width: 90%;
-  margin-left: 5%;
+  margin: 2% 0 2% 5%;
 }
 .presentation{
   width: 30%;  
