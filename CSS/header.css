@@ -17,7 +17,7 @@ header{
   text-align: center;
   vertical-align: middle;
 }
-.fas,.far,li a{
+header .fas, header .far, header li a{
   color:white;
 }
 #slider{

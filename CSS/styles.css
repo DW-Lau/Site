@@ -9,6 +9,10 @@ a{
   margin:0;
   padding: 0;
 }
+h1,h2{
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  color: white;
+}
 body,#bloc_contenu{
   min-height:100vh;
 }
@@ -21,6 +25,10 @@ body,#bloc_contenu{
   max-width: 95%;
 }
 /* c99f88 */
+/* --------- STYLE DE LA PARTIE A PROPOS ---------  */
+/* --------- STYLE DE LA PARTIE A PROPOS ---------  */
+/* --------- STYLE DE LA PARTIE A PROPOS ---------  */
+/* --------- STYLE DE LA PARTIE A PROPOS ---------  */
 
 .bloc_home{
   background-image: url("../Images/office.jpg");
@@ -41,11 +49,6 @@ body,#bloc_contenu{
   padding: 2em;
   text-align: center;
 }
-#top_content h1,#top_content h2,#p_resume h2{
-  font-family: 'Raleway', sans-serif,Light;
-  color: white;
- 
-}
 #top_content h1{
   font-size: 3em;
   margin: auto; 
@@ -64,8 +67,8 @@ body,#bloc_contenu{
 }
 #p_contenu article h2{
   font-size: 1.8em;
-  width: 90%;
-  margin: 2% 0 2% 5%;
+  width: 100%;
+  text-align: center;
 }
 .presentation{
   width: 35%;  
@@ -104,4 +107,90 @@ body,#bloc_contenu{
   color: white;
   font-size: 1.3em;
   text-transform: uppercase;
+}
+ /* --------- STYLE DE LA PARTIE COMPETENCES ---------  */
+ /* --------- STYLE DE LA PARTIE COMPETENCES ---------  */
+ /* --------- STYLE DE LA PARTIE COMPETENCES ---------  */
+ /* --------- STYLE DE LA PARTIE COMPETENCES ---------  */
+.bloc_competences{
+  min-height:100vh ;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bloc_competences h2{
+  margin: 0;
+  padding: 2% 0 2% 5%;
+  background: #2f5162;
+  font-size: 1.8em;
+  text-decoration: underline;
+}
+#exp_contenu{
+  display: flex;
+  /* justify-content: space-between; */
+}
+#comp_Pro,#comp_Pri{
+  max-width: 50%;
+  min-width: 50%;
+  padding: 5px;
+
+}
+#comp_Pro{
+  background:#cba189;
+  border-top: solid white 10px;
+  max-height: 80vh;
+}
+#comp_Pri{
+  background:#fff;
+  border-top: solid#cba189 10px;
+}
+#comp_logiciels{
+  display: flex;
+  justify-content: space-between;
+  max-width: 98%;
+  min-width: 97%;
+  margin: auto;
+}
+#comp_logiciels img{
+ width:14%;
+ border:solid white 1px;
+ border-radius:50% ;
+ margin: 5px;
+}
+.titres_barres{
+  width: 35%;
+  display: flex;
+  align-items: center;
+}
+.barre_prog{
+  display: block;
+  width: 180px;
+  height: 20px;
+  background: #fff;
+  border-radius:5px;
+  -webkit-border-radius: 5px%;
+  -moz-border-radius: 5px;
+}
+
+.barre_prog:after{
+  content: attr(data-percent);
+  background: #2f5162;
+  border-radius: 5px;
+  -webkit-border-radius: 5px%;
+  -moz-border-radius: 5px;
+  display: block;
+  height: 20px;
+  overflow: hidden;
+  font: 1.3em sans-serif;
+  text-align: center;
+  color: #fff;
+  opacity: 0.8;
+}
+ 
+.photo:after, .illu:after{
+  width: 80%;
+ }
+.ind:after{
+  width: 60%;
 }
