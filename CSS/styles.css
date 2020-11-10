@@ -78,8 +78,9 @@ body,#bloc_contenu{
   border-radius: 2%;
   padding: 1em;
   text-align: justify;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Quicksand';
   font-size: 1.3em;
+  line-height: 1.6em;
   max-height: fit-content;
 }
 #logo_Title{
@@ -112,14 +113,15 @@ body,#bloc_contenu{
  /* --------- STYLE DE LA PARTIE COMPETENCES ---------  */
  /* --------- STYLE DE LA PARTIE COMPETENCES ---------  */
  /* --------- STYLE DE LA PARTIE COMPETENCES ---------  */
-.bloc_competences{
+.bloc_competences,.bloc_galerie,.bloc_contacts{
   min-height:100vh ;
   width: 100%;
   display: flex;
   flex-direction:column;
 }
-.bloc_competences h2{
+.bloc_competences h2,.bloc_galerie h2,.bloc_contacts h2{
   margin: 0;
+  height: 5vh;
   padding: 2% 0 2% 5%;
   background: #2f5162;
   font-size: 1.8em;
@@ -131,19 +133,33 @@ body,#bloc_contenu{
   max-height: 90vh;
 }
 #comp_Pro,#comp_Pri{
+  display: flex;
   padding: 5px;
-   max-height: 80vh;
+  max-height: 95vh;
   background:rgba(255, 255, 255, 0.95);
 }
 #comp_Pri{
+  flex-wrap: wrap;
   border-top: solid white 5px;
+  background-color: #eac6b1;
   max-width: 64%;
   min-width: 64%;
   margin-left: 5px;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0;
+}
+#comp_Pri h3{
+  margin: 5px ;
+  font-family: 'Raleway';
+  font-size: 1.5em;
+  text-align: center;
+  color: #2f5162;
+  text-transform: capitalize;
+  text-shadow: 1px 1px 0px #fff;
 }
 #comp_Pro{
   border-top: solid#cba189 5px;
-  display: flex;
   flex-direction:column;
   justify-content: space-between;
   max-width: 35%;
@@ -151,27 +167,28 @@ body,#bloc_contenu{
 #comp_prog{
   display: flex;
   flex-wrap: wrap;
+  align-content: space-around;
   width: 90%;
-  max-height: 80%;
-  min-height: 65%;
+  max-width: 100%;
+  height: 75%;
   margin: auto;
+  border-top:1px solid #2f5162;
+  border-bottom:1px solid #2f5162;
+  border-radius: 2%;
 }
 #comp_logiciels, #comp_outils,#prog_frontback,#prog_Fram_CMS{
   margin-top: 5px;
   display: flex;
   justify-content: space-between;
-  align-items:baseline ;
+  align-items:center ;
    width: 100%;
-   height:25%;
 }
-#comp_prog{
-  display: flex;
-  max-width: 100%;
+.entrelignes{
+  height:1px; 
+  background-color: #2f5162;
+  width:50%;
+  margin: auto;
 }
-/* #comp_Pro h3{
-  font-family: 'Raleway', Arial, Helvetica, sans-serif;
-  margin: 0;
-} */
 #comp_prog figure{
   display: block;
   height:65px;
@@ -190,54 +207,148 @@ body,#bloc_contenu{
 color:#2f5162;
 }
 .workingProgress:hover::after{
-  content: "en cours";
+  content: " en cours";
   color: black;
   position: relative;
   top:-30%;
   left:5%;
   font-size: 1em;
 } 
-/* #exp_contenu figure{
-  height: 3em;
-  margin: 5px;
-} */
-#comp_savoir{
-  display: flex;
-  justify-content: space-around;
-  max-height: fit-content;
-  max-height: 50%;
-}
 #comp_savoir ul{
-height: inherit;
+display: inline;
+margin: 0 auto;
 }
-.fa-check{
-  color:green;
+#comp_savoir li{
+  height: 20%;
+  margin: 0 auto;
+}
+#comp_savoir .fas{
+  color:white;
+  font-size: 1.3em;
+  border: solid #fff 2px;
+}
+.title_exep{
+  width: 100%;
 }
 #experiences{
-  max-height:250px
+  padding-left:14px;
+}
+#formations{
+  padding-right:14px;
+}
+ #experiences,#formations{
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height:275px;
+  width: 48%;
+}
+#comp_savoir{
+  background-color: #cba189; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  min-height: 35%;
+  max-height: 50%;
+  width: 100%;
+  font-family: 'Raleway';
+  font-size: 1em;
 }
 .fa-puzzle-piece{
   color:#428AAD;
-  font-size: 1.2em;
+  font-size: 1em;
 }
-#exp_left,#exp-right{
-  width: 35%;
-  margin:0;
+
+#exp_right .fa-puzzle-piece{
+  transform: rotate( 90deg);
 }
-#exp_left{
+#exp_left,#exp_right{
   display: flex;
   flex-direction: column;
-  justify-content: baseline;
+  justify-content: space-between;
+  margin:0;
+  max-height: 200px;
+  min-height: 150px;
 }
-.titres_exp{
+.titres_exp,.titres_formations{
   display: flex;
   align-items: center;
 }
-.barre{
-  width:5px;
-  height:25px;
-  background-color:#428AAD;
+.titres_formations{
+  justify-content: end;
 }
 .ennoncer{
   margin: 0;
+  font-size: 1em;
+  font-family: 'Raleway';
+  line-height: 1.3em;
+}
+#exp_right{
+text-align: right;
+
+}
+
+ /* --------- STYLE DE LA PARTIE GALERIE ---------  */
+ /* --------- STYLE DE LA PARTIE GALERIE ---------  */
+ /* --------- STYLE DE LA PARTIE GALERIE ---------  */
+ /* --------- STYLE DE LA PARTIE GALERIE ---------  */
+#illustrations{
+   display: flex;
+   flex-direction: column;
+   max-height: 90vh;
+   min-height: 89vh;
+}
+#intro_illustration p{
+   margin:15px auto;
+   width: 80%;
+   text-align: center;
+}
+
+#all_cases{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 90%;
+  margin: auto;
+  height: auto;
+}
+.projets_galerie{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width:350px;
+  max-height:300px;
+  margin: 0;
+  border-radius: 10%;
+}
+
+.projets_galerie img{   
+  border: #2f5162 2px solid;
+  padding:2px;
+  max-width:350px;
+  max-height:300px;
+  border-radius: 10%;
+}
+#chevrons-L,#chevrons-R{
+  display: inline;
+  width: 50px;
+  height: 50px;
+}
+.fa-chevron-left a,.fa-chevron-right a{
+  width: 50px;
+  font-size: 1em;
+  color: #2f5162;
+}
+.texts_galerie{
+  margin: 5px auto;
+  padding: 5px;
+  font-family: 'Raleway' ;
+  width: 80%;
+  text-align: center;
+}
+.projets_galerie a:hover,.projets_galerie .image_zoom:hover{   
+transform: scale(1.1);
+box-shadow: #2f5162 6px 6px 5px ;
 }
