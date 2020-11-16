@@ -328,27 +328,34 @@ text-align: right;
   border: #2f5162 2px solid;
   padding:2px;
   max-width:350px;
+  min-width:250px ;
   max-height:300px;
+  min-height:220px;
   border-radius: 10%;
 }
 #chevrons-L,#chevrons-R{
   display: inline;
   width: 50px;
-  height: 50px;
+  height: 50px; color: #2f5162;
 }
 .fa-chevron-left a,.fa-chevron-right a{
   width: 50px;
   font-size: 1em;
-  color: #2f5162;
+ 
+}
+.legendes{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .texts_galerie{
-  margin: 5px auto;
+  margin: 5px;
   padding: 5px;
   font-family: 'Raleway' ;
-  width: 80%;
   text-align: center;
 }
-.projets_galerie a:hover,.projets_galerie .image_zoom:hover{   
+.projets_galerie a:hover,.projets_galerie .image_zoom:hover~.legendes{   
 transform: scale(1.1);
 box-shadow: #2f5162 6px 6px 5px ;
+border-radius: 10%;
 }
