@@ -91,24 +91,25 @@ body,#bloc_contenu{
   margin: 0 5% 0 0;
 }
 #btn_dll_CV{
-  padding: 2%;
   text-shadow: 1px 1px 1px #000;
-  border-radius: 10px;
-  background: #c99f88;
-  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6), inset -2px -2px 3px rgb(119, 93, 79);
+  height: 55px;
+  background: #cba189;
+  width: 25%;
+  border-radius: 25px;
+  border: #eac6b1 inset 2px;
+  background: linear-gradient(111deg, #cba189 0%, #eac6b1 5%, #cba189 10%);
 }
 #btn_dll_CV:hover{
-  padding: 2%;
-  background: #eac6b1;
-  box-shadow: inset -2px -2px -3px rgba(47, 81, 98, .6), inset 2px 2px -3px rgb(47, 81, 98);
+  border: #eac6b1 outset 2px;
+  background: linear-gradient(111deg, #cba189 80%, #eac6b1 85%, #cba189 90%);
 }
 
 #btn_dll_CV a{
-  font-family: Raleway;
+  font-family: 'Roboto';
   color: white;
   font-size: 1.3em;
-  text-transform: uppercase;
 }
+
  /* --------- STYLE DE LA PARTIE COMPETENCES ---------  */
  /* --------- STYLE DE LA PARTIE COMPETENCES ---------  */
  /* --------- STYLE DE LA PARTIE COMPETENCES ---------  */
@@ -134,23 +135,20 @@ body,#bloc_contenu{
 }
 #comp_Pro,#comp_Pri{
   display: flex;
-  padding: 5px;
   max-height: 95vh;
   background:rgba(255, 255, 255, 0.95);
 }
 #comp_Pri{
   flex-wrap: wrap;
-  border-top: solid white 5px;
-  background-color: #eac6b1;
-  max-width: 64%;
+  border-top: solid white 2px;
+  background-color: #cba189;
   min-width: 64%;
-  margin-left: 5px;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 0;
 }
 #comp_Pri h3{
   margin: 5px ;
+  max-height: 3;
   font-family: 'Raleway';
   font-size: 1.5em;
   text-align: center;
@@ -159,7 +157,7 @@ body,#bloc_contenu{
   text-shadow: 1px 1px 0px #fff;
 }
 #comp_Pro{
-  border-top: solid#cba189 5px;
+  border-top: solid#cba189 2px;
   flex-direction:column;
   justify-content: space-between;
   max-width: 35%;
@@ -172,6 +170,7 @@ body,#bloc_contenu{
   max-width: 100%;
   height: 75%;
   margin: auto;
+  padding: 30px 15px;
   border-top:1px solid #2f5162;
   border-bottom:1px solid #2f5162;
   border-radius: 2%;
@@ -231,10 +230,10 @@ margin: 0 auto;
   width: 100%;
 }
 #experiences{
-  padding-left:14px;
+  padding-left:2%;
 }
 #formations{
-  padding-right:14px;
+  padding-right:2%;
 }
  #experiences,#formations{
   background-color: #fff;
@@ -245,7 +244,7 @@ margin: 0 auto;
   width: 48%;
 }
 #comp_savoir{
-  background-color: #cba189; 
+  background-color: #eac6b1; 
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -274,6 +273,7 @@ margin: 0 auto;
 .titres_exp,.titres_formations{
   display: flex;
   align-items: center;
+  width: 100%;
 }
 .titres_formations{
   justify-content: end;
@@ -283,11 +283,54 @@ margin: 0 auto;
   font-size: 1em;
   font-family: 'Raleway';
   line-height: 1.3em;
+  min-width: 85%;
+  text-align: center;
 }
 #exp_right{
 text-align: right;
-
 }
+#dll_CV{
+  margin: auto;
+  height: 55px;
+  background: #2f5162;
+  width: 35%;
+  border-radius: 25px;
+  border: #4f8aa8 inset 2px;
+  background: linear-gradient(111deg, #2f5162 0%, #4f8aa8 5%, #2f5162 10%);
+}
+#dll_CV:hover{
+  border-radius: 25px;
+  border: #4f8aa8 outset 2px;
+  animation: moveGradient 0.5s 1;
+  background: linear-gradient(111deg, #2f5162 85%, #4f8aa8 90%, #2f5162 95%);
+}
+#dll_CV a{
+  color:#fff;
+  font-size: 1.2em;
+  font-family: 'Quicksand';
+  letter-spacing: normal;
+  text-transform: capitalize;
+}
+    @keyframes moveGradient{
+ 0%{
+  background: linear-gradient(111deg, #2f5162 0%, #4f8aa8 5%, #2f5162 10%);
+  }
+ 20%{
+    background: linear-gradient(111deg, #2f5162 15%, #4f8aa8 20%, #2f5162 25%);
+  }
+  40%{
+    background: linear-gradient(111deg, #2f5162 30%, #4f8aa8 35%, #2f5162 40%);
+  }
+  60%{
+    background: linear-gradient(111deg, #2f5162 45%, #4f8aa8 50%, #2f5162 55%);
+  }
+  80% {
+    background: linear-gradient(111deg, #2f5162 60%, #4f8aa8 70%, #2f5162 75%);
+  }
+  100% {
+    background: linear-gradient(111deg, #2f5162 80%, #4f8aa8 85%, #2f5162 90%);
+  } 
+    }
 
  /* --------- STYLE DE LA PARTIE GALERIE ---------  */
  /* --------- STYLE DE LA PARTIE GALERIE ---------  */
