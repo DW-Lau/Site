@@ -272,16 +272,82 @@
 								<figcaption class="texts_galerie">Projet formation Openclassroom</figcaption>
 							</div>
 						</figure>
-					
+				
 				</article>
 			</section>
 			</div>
 		<!-- ---------FIN BLOC GALERIE--------- -->
 		<div id="contact" class="bloc_contacts">
 			<h2> # Contacts </h2>
+			<article id="infosContacts">
+				<div id="formulaire">
+					<h3>Contact</h3>
+					<p>Contacter moi directement par email ici, ou par téléphone ( disponible sur mon CV)</p>
+					<form id="formulaire_Contact">
+						<form name="formContact" action="">
+							<span class="names_champ">
+								<label for="nom"><span class="champ_Formulaire"> Nom<span class="champ_requis">*</span> :</span></label>
+								<input type="text" id="nom" name="nom" required>
 
+								<label for="prenom"><span class="champ_Formulaire"> Prénom <span class="champ_requis">*</span>:</span></label>
+								<input type="text" id="prenom" name="prenom" required>
+							</span>
+								<label for="mail"><span class="champ_Formulaire">
+									Email <span class="champ_requis">*</span>:</span>
+								</label>
+								<input type="text" id="mail" name="mail" required>
+
+								<label for="telephone">
+									<span class="champ_Formulaire"> Téléphone :</span>
+								</label>
+								<input type="text" id="telephone" name="telephone">
+
+								<label for="societeName">
+									<span class="champ_Formulaire"> Nom de l'entreprise :</span>
+								</label>
+								<input type="text" id="societeName" name="societeName">
+
+								<label for="objet">
+									<span class="champ_Formulaire"> Objet <span class="champ_requis">*</span>:</span>
+								</label>
+								<input type="text" id="objet" name="objet"required>
+
+								<label for="message">
+									<span class="champ_Formulaire"> Message <span class="champ_requis">*</span>:</span>
+								</label>
+								<input type="textarea" id="message" name="message"required>
+					
+							<input type="submit" value="Envoyer">
+							<input type="reset" value="Réinitialiser">
+						</form>
+					</form>
+				</div>
+				<div id="reseauxContact">
+					<h3>Réseaux :</h3>
+					<a href="" target="_blank"> <!-- Lien  LinkedIn-->
+						<i class="fab fa-linkedin"></i>
+					</a>
+					
+					<a href="" target="_blank"> <!-- Lien CodePen-->
+						<i class="fab fa-codepen"></i>
+					</a>
+					<a href="" target="_blank"> <!-- Lien GitHub -->
+						<i class="fab fa-github"></i>
+					</a>
+				</div>
+				<div id="localisation">
+					<h3>Où me trouver :</h3>
+					<!-- Api google Maps-->
+
+				</div>
+			</article>
+			<footer>
+		<div id="mentions"> Mentions Légal, Laura ©</div>
+	</footer>
 		</div>
+		
 	</section>
+	
 </body>
 <script src="JavaScript/carrousel.js"></script>
 <script src="JavaScript/animationTitre.js" defer></script>

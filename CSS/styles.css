@@ -222,7 +222,7 @@ margin: 0 auto;
   margin: 0 auto;
 }
 #comp_savoir .fas{
-  color:white;
+  color:#2f5162;
   font-size: 1.3em;
   border: solid #fff 2px;
 }
@@ -342,39 +342,40 @@ text-align: right;
    max-height: 90vh;
    min-height: 89vh;
 }
+
 #intro_illustration p{
-   margin:15px auto;
+   margin:15px auto 0;
    width: 80%;
    text-align: center;
+   height: 5vh;
 }
 
 #all_cases{
+  background-color: #eac6b1;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 90%;
-  margin: auto;
-  height: auto;
+  justify-content: space-around;
+  align-items: center;
+  height: 78vh;
 }
 .projets_galerie{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width:350px;
-  max-height:300px;
+  max-width:400px;
+  max-height:350px;
   margin: 0;
-  border-radius: 10%;
+  border-radius: 5%;
 }
 
 .projets_galerie img{   
-  border: #2f5162 2px solid;
-  padding:2px;
-  max-width:350px;
-  min-width:250px ;
-  max-height:300px;
+  border: #fff 2px solid;
+  padding:5px;
+  max-width:400px;
+  min-width:250px ; 
+  max-height:350px;
   min-height:220px;
-  border-radius: 10%;
+  border-radius: 5%;
 }
 #chevrons-L,#chevrons-R{
   display: inline;
@@ -399,6 +400,69 @@ text-align: right;
 }
 .projets_galerie a:hover,.projets_galerie .image_zoom:hover~.legendes{   
 transform: scale(1.1);
-box-shadow: #2f5162 6px 6px 5px ;
 border-radius: 10%;
 }
+
+
+
+
+ /* --------- STYLE DE LA PARTIE CONTACT ---------  */
+ /* --------- STYLE DE LA PARTIE CONTACT ---------  */
+ /* --------- STYLE DE LA PARTIE CONTACT ---------  */
+ /* --------- STYLE DE LA PARTIE CONTACT ---------  */
+
+ .bloc_contacts{
+  background: #393939;
+ }
+ .bloc_contacts h3{
+   color:#fff;
+   font-family: 'Raleway';
+   font-size: 1.2em;
+ }
+ .bloc_contacts,#formulaire_Contact, #reseauxContact{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ }
+ #infosContacts{
+  margin: auto;
+  width: 90%;
+  display: flex;
+ flex-direction: column;
+  justify-content: space-around;
+  height: 85vh;
+}
+#infosContacts:nth-child(2){
+ flex-wrap:wrap;
+}
+
+
+#formulaire{
+  width: 45%;
+  height:80vh;
+  margin: auto;
+}
+#reseauxContact{
+  display: inline;
+  width: 40%;
+}
+#reseauxContact .fab{
+  color:#fff;
+  font-size:2em ;
+  margin: 5px;
+}
+#localisation{
+  border:  2px solid #fff;
+  width: 45%;
+  height: 250px;
+}
+ footer{
+  height: 5vh;
+  background: #242424;
+  display: grid;
+  width: 100%;
+ }
+ #mentions{ 
+  color:#fff;
+   margin: auto;
+ }
