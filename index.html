@@ -283,49 +283,52 @@
 				<div id="formulaire">
 					<h3>Contact</h3>
 					<p>Contacter moi directement par email ici, ou par téléphone ( disponible sur mon CV)</p>
-					<form id="formulaire_Contact">
-						<form name="formContact" action="">
-							<span class="names_champ">
-								<label for="nom"><span class="champ_Formulaire"> Nom<span class="champ_requis">*</span> :</span></label>
-								<input type="text" id="nom" name="nom" required>
+					<form id="formulaire_Contact"name="formContact" action="">
+						<span class="names_champ">
+								<label for="nom"><span class="champ_Formulaire"> Nom *</span> </label>
+								<input type="text" id="nom" name="nom" required />
 
-								<label for="prenom"><span class="champ_Formulaire"> Prénom <span class="champ_requis">*</span>:</span></label>
-								<input type="text" id="prenom" name="prenom" required>
-							</span>
-								<label for="mail"><span class="champ_Formulaire">
-									Email <span class="champ_requis">*</span>:</span>
+								<label for="prenom">
+									<span class="champ_Formulaire"> Prénom *</span>
 								</label>
-								<input type="text" id="mail" name="mail" required>
+								<input type="text" id="prenom" name="prenom" required />
+							</span>
+								<label for="mail">
+									<span class="champ_Formulaire">Email *
+								</label>
+								<input type="email" id="mail" name="mail" required />
 
 								<label for="telephone">
-									<span class="champ_Formulaire"> Téléphone :</span>
+									<span class="champ_Formulaire"> Téléphone</span>
 								</label>
-								<input type="text" id="telephone" name="telephone">
+								<input type="tel" id="telephone" name="telephone" />
 
 								<label for="societeName">
-									<span class="champ_Formulaire"> Nom de l'entreprise :</span>
+									<span class="champ_Formulaire"> Nom de l'entreprise </span>
 								</label>
-								<input type="text" id="societeName" name="societeName">
+								<input type="text" id="societeName" name="societeName" />
 
 								<label for="objet">
-									<span class="champ_Formulaire"> Objet <span class="champ_requis">*</span>:</span>
+									<span class="champ_Formulaire"> Objet </span>
 								</label>
-								<input type="text" id="objet" name="objet"required>
+								<input type="text" id="objet" maxlength="100"name="objet"required />
 
 								<label for="message">
-									<span class="champ_Formulaire"> Message <span class="champ_requis">*</span>:</span>
+									<span class="champ_Formulaire"> Message *</span>
 								</label>
-								<input type="textarea" id="message" name="message"required>
+								<textarea name="message"  id="message" name="message"required></textarea>
 					
 							<input type="submit" value="Envoyer">
 							<input type="reset" value="Réinitialiser">
 						</form>
-					</form>
 				</div>
 				<div id="reseauxContact">
 					<h3>Réseaux :</h3>
 					<a href="" target="_blank"> <!-- Lien  LinkedIn-->
 						<i class="fab fa-linkedin"></i>
+					</a>
+					<a href="" target="_blank"> <!-- Lien Discord-->
+						<i class="fab fa-discord"></i>
 					</a>
 					
 					<a href="" target="_blank"> <!-- Lien CodePen-->
@@ -342,7 +345,7 @@
 				</div>
 			</article>
 			<footer>
-		<div id="mentions"> Mentions Légal, Laura ©</div>
+		<div id="mentions"> Mentions Légal, Laura 2020 ©</div>
 	</footer>
 		</div>
 		

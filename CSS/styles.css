@@ -436,11 +436,23 @@ border-radius: 10%;
  flex-wrap:wrap;
 }
 
-
-#formulaire{
-  width: 45%;
-  height:80vh;
+#formulaire_Contact{
+  width: 85%;
+  max-height:75vh;
+  min-height: 65vh;
   margin: auto;
+
+}
+#formulaire_Contact label {
+  font-family: 'Raleway';
+  font-size: 1em;
+  color:#fff;
+}
+#formulaire_Contact input{
+  background: transparent;
+  border:none;
+  border-bottom: dotted 4px #fff;
+  color:  #fff;
 }
 #reseauxContact{
   display: inline;
