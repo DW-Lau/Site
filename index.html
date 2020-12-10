@@ -9,7 +9,7 @@
 
 		<meta name="description" content="Portfolio">
 
-		<meta name="keywords" content="Portfolio, galerie, developpeur, web, Developpeuse, graphiste, design, cv, laura,lariccia" />
+		<meta name="keywords" content="Portfolio, galerie, developpeur, web, Developpeuse, graphiste, design, cv, laura,lariccia, font, front end" />
 			<!--Meta Facebook-->
 		<meta property="og:title" content="Laura Lariccia: Developpeuse Web" />
 		<meta property="og:type" content="article" /> 
@@ -27,6 +27,13 @@
 		<meta name="twitter:creator" content="@author_handle">
 		<meta name="twitter:image:src" content="images.png">
 			<!--FIN META -->
+
+			<script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+			<script>
+				tinymce.init({
+					selector:'textarea'
+					});
+			</script>
 
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet"> 
 		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Raleway:wght@200;400&display=swap" rel="stylesheet">
@@ -285,41 +292,41 @@
 					<p>Contacter moi directement par email ici, ou par téléphone ( disponible sur mon CV)</p>
 					<form id="formulaire_Contact"name="formContact" action="">
 						<span class="names_champ">
-								<label for="nom"><span class="champ_Formulaire"> Nom *</span> </label>
+								<label for="nom">Nom * </label>
 								<input type="text" id="nom" name="nom" required />
 
 								<label for="prenom">
-									<span class="champ_Formulaire"> Prénom *</span>
+									 Prénom *
 								</label>
 								<input type="text" id="prenom" name="prenom" required />
 							</span>
+							<span class="infos_champ">
 								<label for="mail">
-									<span class="champ_Formulaire">Email *
+									Email *
 								</label>
 								<input type="email" id="mail" name="mail" required />
 
 								<label for="telephone">
-									<span class="champ_Formulaire"> Téléphone</span>
+									 Téléphone
 								</label>
-								<input type="tel" id="telephone" name="telephone" />
-
+								<input type="tel" id="telephone" maxlength="20" name="telephone" />
+							</span>
 								<label for="societeName">
-									<span class="champ_Formulaire"> Nom de l'entreprise </span>
+									 Nom de l'entreprise
 								</label>
-								<input type="text" id="societeName" name="societeName" />
+								<input type="text" id="societeName"  maxlength="150"name="societeName" />
 
 								<label for="objet">
-									<span class="champ_Formulaire"> Objet </span>
+									 Objet *
 								</label>
 								<input type="text" id="objet" maxlength="100"name="objet"required />
 
 								<label for="message">
-									<span class="champ_Formulaire"> Message *</span>
+									 Message *
 								</label>
 								<textarea name="message"  id="message" name="message"required></textarea>
 					
-							<input type="submit" value="Envoyer">
-							<input type="reset" value="Réinitialiser">
+							<input  id="btnEnvoie" type="submit" value="Envoyer">
 						</form>
 				</div>
 				<div id="reseauxContact">
@@ -340,6 +347,7 @@
 				</div>
 				<div id="localisation">
 					<h3>Où me trouver :</h3>
+					<div id="map"></div>
 					<!-- Api google Maps-->
 
 				</div>
@@ -355,4 +363,17 @@
 <script src="JavaScript/carrousel.js"></script>
 <script src="JavaScript/animationTitre.js" defer></script>
 <script src="JavaScript/menuHeader.js" ></script>
+<script>
+				  
+
+let map;
+
+function initMap() {
+  map = new google.maps.Map(document.getElementById("map"), {
+    center: { lat: 49.51897906966993, lng: 5.767401379060701 },
+    zoom: 12,
+  });
+}	</script>
+				  <script async defer src="https://maps.googleapis.com/maps/api/js?key=API&callback=initMap"
+				  type="text/javascript"></script>
 </html>

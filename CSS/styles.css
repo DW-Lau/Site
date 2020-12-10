@@ -289,7 +289,7 @@ margin: 0 auto;
 #exp_right{
 text-align: right;
 }
-#dll_CV{
+#dll_CV, #formulaire_Contact #btnEnvoie{ /*#formulaire_Contact  est aussi modifié dans la partie formulaire*/
   margin: auto;
   height: 55px;
   background: #2f5162;
@@ -298,13 +298,13 @@ text-align: right;
   border: #4f8aa8 inset 2px;
   background: linear-gradient(111deg, #2f5162 0%, #4f8aa8 5%, #2f5162 10%);
 }
-#dll_CV:hover{
+#dll_CV:hover, #formulaire_Contact #btnEnvoie:hover{
   border-radius: 25px;
   border: #4f8aa8 outset 2px;
   animation: moveGradient 0.5s 1;
   background: linear-gradient(111deg, #2f5162 85%, #4f8aa8 90%, #2f5162 95%);
 }
-#dll_CV a{
+#dll_CV a, #formulaire_Contact  #btnEnvoie a{
   color:#fff;
   font-size: 1.2em;
   font-family: 'Quicksand';
@@ -421,42 +421,70 @@ border-radius: 10%;
  }
  .bloc_contacts,#formulaire_Contact, #reseauxContact{
   display: flex;
+  justify-content: space-around;
+ }
+ .bloc_contacts,#formulaire_Contact{
   flex-direction: column;
-  justify-content: space-between;
+  align-content: center;
  }
  #infosContacts{
   margin: auto;
   width: 90%;
   display: flex;
  flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
   height: 85vh;
 }
 #infosContacts:nth-child(2){
  flex-wrap:wrap;
 }
-
+/*-------Début fomulaire-------*/
+#formulaire{
+  height:80vh;
+  font-family: 'Quicksand';color:#fff;
+  font-size:1em ;
+}
 #formulaire_Contact{
-  width: 85%;
+  width: 90%;
   max-height:75vh;
   min-height: 65vh;
   margin: auto;
-
-}
-#formulaire_Contact label {
-  font-family: 'Raleway';
-  font-size: 1em;
-  color:#fff;
 }
 #formulaire_Contact input{
+  color:#fff;
   background: transparent;
   border:none;
   border-bottom: dotted 4px #fff;
-  color:  #fff;
 }
-#reseauxContact{
-  display: inline;
+.names_champ,.infos_champ{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+#nom,#prenom,#telephone{
+  width: 35%;
+}
+#mail{
   width: 40%;
+}
+#societeName{
+  width:50%;
+}
+#formulaire_Contact #btnEnvoie{
+  margin: 0 auto;
+  height:40px;
+  width: 40%;
+}
+/*-------Fin formulaire-------*/
+#reseauxContact{
+  width: 40%;
+  height:10vh;
+  flex-wrap: wrap;
+}
+#reseauxContact h3{
+  width: 100%;
 }
 #reseauxContact .fab{
   color:#fff;
@@ -464,9 +492,14 @@ border-radius: 10%;
   margin: 5px;
 }
 #localisation{
-  border:  2px solid #fff;
-  width: 45%;
-  height: 250px;
+  width: 40%;
+  height: 40vh;
+}
+#map{
+height: 100%;
+width: 100%; 
+border:  2px solid #fff;
+border-radius: 5px;
 }
  footer{
   height: 5vh;
