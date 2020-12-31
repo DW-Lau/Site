@@ -56,10 +56,13 @@ body,#bloc_contenu{
 #p_contenu article{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  align-content: center;
   padding-left: 5%;
   padding-right: 5%;
-  background: #cba189;
+  border: 2px solid #cba189;
+  border-right:0px;
+  border-left:0px;
+  background: #fff;
   margin: 2em auto;
   max-height: 450px;
   min-height: 400px;
@@ -70,21 +73,22 @@ body,#bloc_contenu{
   width: 100%;
   text-align: center;
 }
-.presentation{
-  width: 35%;  
-  background:#eac6b1;
-  border-right:solid 1px white;
-  border-left: solid 1px white;
+#presentation{
+  width: 55%;  
   border-radius: 2%;
   padding: 1em;
   text-align: justify;
-  font-family: 'Quicksand';
+  font-family: 'Roboto';
   font-size: 1.3em;
-  line-height: 1.6em;
+  line-height: 1.65em;
   max-height: fit-content;
 }
 #logo_Title{
   margin: auto;
+}
+#logo_Title .logo{
+  width:250px;
+  height:200px;
 }
 #bottom_content{
   text-align: right;
@@ -165,7 +169,7 @@ body,#bloc_contenu{
 #comp_prog{
   display: flex;
   flex-wrap: wrap;
-  align-content: space-around;
+  align-content: space-between;
   width: 90%;
   max-width: 100%;
   height: 75%;
@@ -175,7 +179,7 @@ body,#bloc_contenu{
   border-bottom:1px solid #2f5162;
   border-radius: 2%;
 }
-#comp_logiciels, #comp_outils,#prog_frontback,#prog_Fram_CMS{
+/* #comp_logiciels, #comp_outils,#prog_frontback,#prog_Fram_CMS{
   margin-top: 5px;
   display: flex;
   justify-content: space-between;
@@ -187,12 +191,13 @@ body,#bloc_contenu{
   background-color: #2f5162;
   width:50%;
   margin: auto;
-}
+} */
 #comp_prog figure{
   display: block;
   height:65px;
   margin: 0;
-  max-width: 20%;
+  max-width: 25%;
+  min-width: 24%;
 }
 #comp_prog figure img{
   max-width: 100%;
