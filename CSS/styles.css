@@ -30,11 +30,11 @@ body,#bloc_contenu{
 /* --------- STYLE DE LA PARTIE A PROPOS ---------  */
 /* --------- STYLE DE LA PARTIE A PROPOS ---------  */
 /* ,.bloc_competences */
-.bloc_home{
+/* .bloc_home{
   background-image: url("../Images/office.jpg");
   min-height:100vh;
   width: 100%;
-}
+} */
 
 #p_contenu{
   display: flex;

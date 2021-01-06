@@ -29,12 +29,12 @@ header .fas, header .far, header li a{
   align-items: center;
   flex-direction: column;
 }
-#nav_liens{
+/* #nav_liens{
   height: 13vh;
   border-top: #fff 2px solid;
   border-radius: 5%;
   background: #393939;
-}
+} */
 #slider li a,#nav_liens li a{
   font-family: 'Quicksand', sans-serif;
   font-size: 0.8em;
@@ -58,6 +58,6 @@ ul{
   padding: 0;
   margin: 10px 0 0 0;
 }
-.dll_CV:hover,.popup_mail:hover{
+/* .dll_CV:hover,.popup_mail:hover{
   cursor: alias;
-}
+} */

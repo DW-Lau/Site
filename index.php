@@ -64,7 +64,7 @@
 					</li>
 				</ul>
 			</nav>
-			<div id="nav_liens">
+			<!-- <div id="nav_liens">
 				<ul>
 					<li>
 						<a href="mailto:laura.lariccia@gmail.com" title="E-Mail" class="nav_links popup_mail"><i class="far fa-envelope"></i></a>
@@ -74,7 +74,7 @@
 					</li>
 				</ul>
 				
-			</div>
+			</div> -->
 	</header>
 	<section id="bloc_contenu">
 		<div id="home" class="bloc_home">
