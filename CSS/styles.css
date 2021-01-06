@@ -354,16 +354,77 @@ text-align: right;
    text-align: center;
    height: 5vh;
 }
-
 #all_cases{
-  background-color: #eac6b1;
+  width: 80%;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 78vh;
+ }
+ .vignettes{
+   display:flex;
+   flex-direction:column;
+   background:#fff;
+   width:300px;
+   height:350px;
+   border-radius:25px;
+   background:#eac6b1;
+   
+ }
+ .Previews,.photos_vignettes{
+   border-top-left-radius:25px;
+   border-top-right-radius:25px;
+   width:300px;
+   margin:0;
+   height:245px;
+ }
+ .vignettes:hover,.btn_projets:hover{
+   transform:scale(1.01);
+ }
+ .btn_projets:hover,.btn_projets a:hover{
+   cursor:alias;
+ }
+ .txts_vignettes{
+  height:105px;
+  width:100%;
+  font-size:1em;
+  font-family:'Roboto';
+  border-bottom-left-radius:25px;
+  border-bottom-right-radius:25px;
+ }
+ .legendes{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.projets_galerie{
+.projetUn p{
+  font-size: 0.9;
+}
+ .txts_vignettes p{
+
+   margin:auto;
+   width: 90%;
+   padding:5px;
+ }
+ .btn_projets{
+   height:50px;
+   width:120px;
+   border:solid #000 2px;
+   background:#fff;
+   margin:auto;
+ }
+ 
+ .btn_projets a{
+   text-decoration:none;
+   font-size:1.1em;
+   color:#000;
+   font-family:'Roboto';
+ }
+ 
+
+/*.projets_galerie{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -372,7 +433,6 @@ text-align: right;
   margin: 0;
   border-radius: 5%;
 }
-
 .projets_galerie img{   
   border: #fff 2px solid;
   padding:5px;
@@ -381,7 +441,19 @@ text-align: right;
   max-height:350px;
   min-height:220px;
   border-radius: 5%;
+} 
+.texts_galerie{
+  margin: 5px;
+  padding: 5px;
+  font-family: 'Raleway' ;
+  text-align: center;
 }
+.projets_galerie a:hover,.projets_galerie .image_zoom:hover~.legendes{   
+transform: scale(1.1);
+border-radius: 10%;
+} */
+
+
 #chevrons-L,#chevrons-R{
   display: inline;
   width: 50px;
@@ -392,21 +464,7 @@ text-align: right;
   font-size: 1em;
  
 }
-.legendes{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.texts_galerie{
-  margin: 5px;
-  padding: 5px;
-  font-family: 'Raleway' ;
-  text-align: center;
-}
-.projets_galerie a:hover,.projets_galerie .image_zoom:hover~.legendes{   
-transform: scale(1.1);
-border-radius: 10%;
-}
+
 
 
 

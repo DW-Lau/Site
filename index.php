@@ -226,56 +226,71 @@
 				</aside>
 				<div class="entrelignes"></div>
 				<article id="all_cases">
-						<figure class="projets_galerie">
-						 <!--Diaporama et informations-->
-							
-							<img src="Images/Galerie/Sauvegardes/Laptop/home.png" id="carrousel" class="image_zoom" title="projet" al t="projet">
-							
-						
-						<div class="legendes">
-							<a href="#galerie" onclick="changeBg(-1)" , return false , id="chevron-l">
+				 <div class="vignettes">
+						 <figure class="projetUn Previews">
+							<img src="Images/Galerie/Sauvegardes/Laptop/home.png" id="carrousel" class="photos_vignettes" title="projet" al t="projet">
+						</figure>
+							<figcaption class="txts_vignettes">
+								<div class="legendes">
+									<a href="#galerie" onclick="changeBg(-1)" , return false , id="chevron-l">
 								<i id="chevrons-L" class="fa fa-chevron-left" aria-hidden="true"></i></a>
-						
-						
-							<figcaption id="explicatif" class="texts_galerie"></figcaption>
-						
+									
+								
+								<p>"AST Lor'N" est devenue "AGESTRA". <br>Le site n'étant donc plus d'actualité, vous pouvez consulter quelques screens </p>
 							<a href="#galerie" onclick="changeBg(1)" , return false , id="chevron-r"> 
-								<i id="chevrons-R" class="fa fa-chevron-right" aria-hidden="true"></i></a>
-						</div>	
-						</figure>
-						<!-- fin images & carrousel -->
-						
-						<figure class="projets_galerie">
-							<a href="www.projet1.laura-lariccia.fr">
-								<img src="Images/Galerie/Projet1.PNG" class="image_zoom" title="projet" al t="projet">
-							</a>
-							<figcaption class="texts_galerie">Projet formation Openclassroom</figcaption>
-						</figure>
-						<figure class="projets_galerie">
-							<a href="www.projet3.laura-lariccia.fr">
-								<img src="Images/Galerie/Projet3.PNG" class="image_zoom" title="projet" al t="projet">
-							</a>
-							<div class="legendes">
-								<figcaption class="texts_galerie">Projet formation Openclassroom</figcaption>
-							</div>
-						</figure>
-						<figure class="projets_galerie">
-							<a href="www.projet4.laura-lariccia.fr">
-								<img src="Images/Galerie/Projet4.PNG" class="image_zoom" title="projet" al t="projet">
-							</a>
-							<div class="legendes">
-								<figcaption class="texts_galerie">Projet formation Openclassroom</figcaption>
-							</div>
-						</figure>
-						<figure class="projets_galerie">
-							<a href="www.projet5.laura-lariccia.fr">
-								<img src="Images/Galerie/Projet5.PNG" class="image_zoom" title="projet" al t="projet">
-							</a>
-							<div class="legendes">
-								<figcaption class="texts_galerie">Projet formation Openclassroom</figcaption>
-							</div>
-						</figure>
-				
+								<i id="chevrons-R" class="fa fa-chevron-right" aria-hidden="true"></i></a></div>
+							</figcaption> 
+					</div>	 
+
+					<div class="vignettes">
+						<figure class="projetDeux Previews">
+							<img src="Images/Galerie/Projet1.PNG" class="photos_vignettes" title="projet" alt="projet">
+						</figure>	
+
+						<figcaption class="txts_vignettes">
+							<p>Projet formation Openclassroom</p>
+							<button class="btn_projets">
+								<a href="http:www.projet1.laura-lariccia.fr"> Voir le projet</a>
+							</button>
+						</figcaption>
+					</div>
+
+					<div class="vignettes">
+						<figure class="projetTrois Previews">
+							<img src="Images/Galerie/Projet3.PNG" class="photos_vignettes" title="projet" alt="projet">
+						</figure>	
+
+						<figcaption class="txts_vignettes">
+							<p>Projet formation Openclassroom</p>
+							<button class="btn_projets">
+								<a href="www.projet3.laura-lariccia.fr"> Voir le projet</a>
+							</button>
+						</figcaption>
+					</div>
+					<div class="vignettes">
+						<figure class="projetQuatre Previews">
+							<img src="Images/Galerie/Projet4.PNG" class="photos_vignettes" title="projet" alt="projet">
+						</figure>	
+
+						<figcaption class="txts_vignettes">
+							<p>Projet formation Openclassroom</p>
+							<button class="btn_projets">
+								<a href="www.projet4.laura-lariccia.fr"> Voir le projet</a>
+							</button>
+						</figcaption>
+					</div>
+					<div class="vignettes">
+						<figure class="projetCinq Previews">
+							<img src="Images/Galerie/Projet5.PNG" class="photos_vignettes" title="projet" alt="projet">
+						</figure>	
+
+						<figcaption class="txts_vignettes">
+							<p>Projet formation Openclassroom</p>
+							<button class="btn_projets">
+								<a href="www.projet5.laura-lariccia.fr"> Voir le projet</a>
+							</button>
+						</figcaption>
+					</div>
 				</article>
 			</section>
 			</div>
