@@ -51,40 +51,25 @@
 			<nav id="slider">
 				<ul>
 					<li>
-						<a href="#home" class="nav_links"> <i id="iconeAbout" class="fas fa-home"></i><p id="linkAbout">About</p></a>
+						<a href="#home" class="nav_links"> <i  title="Accueil" class="fas fa-home"></i></a>
 					</li>
 					<li>
-						<a href="#competences"class="nav_links"><i class="fas fa-file-alt"></i><p id="linkCV">CV </p></a>
+						<a href="#competences"class="nav_links"><i title="CV" class="fas fa-file-alt"></i></a>
 					</li>
 					<li> 
-						<a href="#galerie" class="nav_links"> <i id="icone" class="far fa-images"></i><p id="linkGalerie">Galerie</p> </a>
+						<a href="#galerie" class="nav_links"> <i title="Galerie"  class="far fa-images"></i></a>
 					</li>
 					<li>
-						<a href="#contact" class="nav_links"><i class="fas fa-id-card"></i><p id="linkContact">Contact</p></a>
+						<a href="#contact" class="nav_links"><i  title="Contact"class="fas fa-id-card"></i></a>
 					</li>
 				</ul>
 			</nav>
-			<!-- <div id="nav_liens">
-				<ul>
-					<li>
-						<a href="mailto:laura.lariccia@gmail.com" title="E-Mail" class="nav_links popup_mail"><i class="far fa-envelope"></i></a>
-					</li>
-					<li>
-						<a href="Images/logo.png" target="_blank" title="Télécharger CV" class="nav_links dll_CV"><i class="far fa-id-badge"></i></a>
-					</li>
-				</ul>
-				
-			</div> -->
 	</header>
 	<section id="bloc_contenu">
 		<div id="home" class="bloc_home">
 			<section id="p_contenu">
 				<aside id="top_content">
-					<h1>Développeuse Web <span
-						class="txt-rotate"
-						data-period="2500"
-						data-rotate='[ "Front - End.", "Junior. " ]'></span>
-				   </h1>
+				<h1>Developpeuse Web <span id="">Junior <br> Front-End</span></h1>
 				</aside>
 				<article div="p_resume">
 					<div id="logo_Title">
@@ -92,16 +77,19 @@
 					</div>
 					<!-- Modifier les paragraphes de présentation + liens de contact ! -->
 					 <span id="presentation">
-						<p>Je suis Laura !</p>
-						<p>Passionnée d'informatique et de dessin, il est naturel de m'être orientée vers un cursus universitaire dans le domaine de l'infographie et développement web. <br></p>
-						<p>Vous pouvez me contacter par <a href="#contact">mail</a> ou par<a href="#contact"> les réseaux sociaux</a>.<br>
-						N'hésitez pas à consulter mon CV</p>
+						<p>Bonjour et bienvenu sur mon portfolio.<br>
+							Je m'appelle Laura L, retrouver <a href="#competences" class="liens_Home">mon parcours</a> et<a href="#competences" class="liens_Home"> mes projets </a>dans les lignes qui suivent.
+
+						</p>
+						
+						<p>Pour toutes questions, ou compléments d'informations contacté moi par <a href="#contact">mail ou sur les réseaux sociaux</a>.<br>
+						</p>
 					</span>
 				</article>
 
 				<aside id="bottom_content">
 					<button id="btn_dll_CV">
-						<a href="Images/logo.png" target="_blank" title="Télécharger CV" class="link_dll">Télécharger le CV</a>
+						<a href="Images/logo.png" target="_blank" title="Télécharger CV" class="link_dll">CV disponible ici</a>
 					</button>
 				</aside>
 			</section>
@@ -114,7 +102,6 @@
 			<section id="exp_contenu">
 					<!-- Compétences informatiques  -->
 				<article id="comp_Pro">
-					<!-- <i class="fas fa-desktop"></i> -->
 					<div id="comp_prog">
 								<!-- <h3>Programmation:  </h3> -->
 								<figure><img src="Images/Logos/HTML5.png" title="HTML5" alt="HTML5"></figure>
@@ -377,6 +364,7 @@
 <!-- <script src="JavaScript/mail.js"></script> -->
 <script src="JavaScript/carrousel.js"></script>
 <script src="JavaScript/animationTitre.js" defer></script>
+<script src="JavaScript/menuHeader.js" ></script>
 <script>
 				  
 
