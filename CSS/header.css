@@ -5,8 +5,7 @@ header{
   margin: 0;
   position: fixed;
   z-index: 1;
-  width:75px;
-
+  width:4%;
   background: #242424;
 }
 .fas,.far{

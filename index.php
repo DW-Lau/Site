@@ -14,22 +14,6 @@
 
 		<meta name="keywords" content="Portfolio, galerie, developpeur, web, Developpeuse, graphiste, design, cv, laura,lariccia, font, front end" />
 <!--			
-	
-		 <meta property="og:title" content="Laura Lariccia: Developpeuse Web" />
-		<meta property="og:type" content="article" /> 
-		<meta property="og:url" content="http://www.laura-lariccia.fr" /> 
-		<meta property="og:image" content="images/" /> 
-		<meta property="og:description" content="" /> 
-		<meta property="og:site_name" content="" /> 
-		<meta property="fb:admins" content="Facebook numeric ID" />
-			
-		<meta name="twitter:card" content="images/.png">
-		<meta name="twitter:site" content="@laura"> 
-		<meta name="twitter:title" content="">
-		<meta name="twitter:description" content=""> 
-		<meta name="twitter:creator" content="@author_handle">
-		<meta name="twitter:image:src" content="images.png"> 
-
 			<script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
 			<script>
 				tinymce.init({
@@ -68,30 +52,27 @@
 	<section id="bloc_contenu">
 		<div id="home" class="bloc_home">
 			<section id="p_contenu">
-				<aside id="top_content">
-				<h1>Developpeuse Web <span id="">Junior <br> Front-End</span></h1>
-				</aside>
-				<article div="p_resume">
-					<div id="logo_Title">
-						<img src="Images/Galerie/LogoLL.png" alt="logo Laura" class="logo">
-					</div>
-					<!-- Modifier les paragraphes de présentation + liens de contact ! -->
+				<div id="firstHome">
+					<h1>Developpeuse Web  </h1><span id="titreSwitch">Junior<br> - <br>Front-End</span>
+				</div>	
+				<div id="middleHome">
+					<img src="Images/Galerie/LogoLL.png" alt="logo Laura" class="logo">
+					<div id="blocHome">
 					 <span id="presentation">
 						<p>Bonjour et bienvenu sur mon portfolio.<br>
 							Je m'appelle Laura L, retrouver <a href="#competences" class="liens_Home">mon parcours</a> et<a href="#competences" class="liens_Home"> mes projets </a>dans les lignes qui suivent.
 
 						</p>
 						
-						<p>Pour toutes questions, ou compléments d'informations contacté moi par <a href="#contact">mail ou sur les réseaux sociaux</a>.<br>
+						<p>Pour toutes questions, ou compléments d'informations, contacté moi par <a href="#contact">mail ou sur les réseaux sociaux</a>.<br>
 						</p>
 					</span>
-				</article>
-
-				<aside id="bottom_content">
+				
 					<button id="btn_dll_CV">
 						<a href="Images/logo.png" target="_blank" title="Télécharger CV" class="link_dll">CV disponible ici</a>
 					</button>
-				</aside>
+					</div>
+				</div>
 			</section>
 		</div> 
 
@@ -364,7 +345,6 @@
 <!-- <script src="JavaScript/mail.js"></script> -->
 <script src="JavaScript/carrousel.js"></script>
 <script src="JavaScript/animationTitre.js" defer></script>
-<script src="JavaScript/menuHeader.js" ></script>
 <script>
 				  
 
