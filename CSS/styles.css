@@ -21,9 +21,25 @@ body,#bloc_contenu{
   display:flex;
   flex-direction: column;
   padding-left: 4%;
+  width: 100%;
 }
 p{
   font-family: 'Roboto';
+}
+.dll_CV, #formulaire_Contact #btnEnvoie{ /*#formulaire_Contact  est aussi modifié dans la partie formulaire*/
+  margin: 2%;
+  height: 100px;
+  width: 300px;
+  border-radius: 25px;
+  background: #00C4BA;
+}
+.dll_CV:hover, #formulaire_Contact #btnEnvoie:hover{
+  background:#E9573F;
+}
+.dll_CV a, #formulaire_Contact  #btnEnvoie a{
+  color:#fff;
+  font-size: 1.4em;
+  font-family: 'Poppins';
 }
 /* c99f88 */
 /* --------- STYLE DE LA PARTIE A PROPOS ---------  */
@@ -31,150 +47,59 @@ p{
 /* --------- STYLE DE LA PARTIE A PROPOS ---------  */
 /* --------- STYLE DE LA PARTIE A PROPOS ---------  */
 /* ,.bloc_competences */
-.bloc_home{
-  min-height:100vh;
-  width: 100%;
-}
 #p_contenu{
-  display: flex;
-  flex-direction: column; 
-  background: linear-gradient(to right, #fff 45%, #C42B00 45% ,#C42B00 100%);
+  min-height:100vh;
   width:100%;
-  height: 100vh;
+  background-image: url("../Images/background/HomePage.png");
+  display: flex;
+  align-items: center;
+  margin: 0;
 }
-#firstHome{
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(3,1fr);
-  width: 100%;
-  height: 200px;
-}
-#titreSwitch , h1{
-  font-family: 'Roboto';
-  text-transform: capitalize;
-  color:#fff;
+#bloc_logo{
+ width: 30%;
+  background: none;
   margin: auto;
-}
-#titreSwitch{
-  font-size: 2.5em;
-  grid-row: 2;
-  grid-column: 3/5;
-}
-h1{
-  font-size:3em;
-  color: #000;
-  text-align: right;
-  grid-row: 2;
-  grid-column:1/3;
-}
-#middleHome{
-  display: flex;
-  justify-content: space-between;
-  height:600px;
-}
-.logo{
-  /* clip-path: polygon(0% 0%, 0% 100%, 10% 100%, 10% 10%, 90% 10%, 90% 90%, 10% 90%, 9% 100%, 100% 100%, 100% 0%);
-background-color: #C42B00; */
-  width:20%;
-  height:225px;
-}
-
-#presentation{
-  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
-  border: solid #fff 2px;
-  background-color: #fff;
-  min-height: 400px;
-  padding: 5px;
-}
-#presentation p{
-  color:#000;
-  font-size: 1.4em;
-}
-#blocHome{
-  display:flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 760px;
-}
-.liens_Home{
-  color:#000;
-  text-decoration:underline #C42B00 2px;
-}
-#btn_dll_CV{
-  display: block;
-  height: 55px;
-  width: 350px;
-  border-radius:25px;
-  background: #00C4BA;
- 
-}
-#btn_dll_CV a {
-  color:#fff;
-  font-family: 'Raleway';
-  font-size: 1em;
-} 
-
-/* 
-#p_contenu article{
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  padding-left: 5%;
-  padding-right: 5%;
-  border: 2px solid #cba189;
-  border-right:0px;
-  border-left:0px;
-  background: #fff;
-  margin: 2em auto;
-  max-height: 450px;
-  min-height: 400px;
-  box-shadow: inset 0 0 5px #ffffff;
-}
-#p_contenu article h2{
-  font-size: 1.8em;
-  width: 100%;
   text-align: center;
 }
-#presentation{
-  width: 55%;  
-  border-radius: 2%;
-  padding: 1em;
-  text-align: justify;
-  font-family: 'Roboto';
-  font-size: 1.3em;
-  line-height: 1.65em;
-  max-height: fit-content;
+.logo{
+  height:225px;
+  width: 50%;margin: auto;
 }
-#logo_Title{
-  margin: auto;
+#home_Main{
+  width: 70%;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:center;
 }
-#logo_Title .logo{
-  width:250px;
-  height:200px;
+#banniere{
+  background-image: url("../Images/background/bannièreHome.png");
+  height:300px;
+  width:100%;
 }
-#bottom_content{
+#banniere h1{
+  font-family: 'Poppins';
+  width: 80%;
+  font-size:3em;
   text-align: right;
-  margin: 0 5% 0 0;
 }
-#btn_dll_CV{
-  text-shadow: 1px 1px 1px #000;
-  height: 55px;
-  background: #cba189;
-  width: 25%;
-  border-radius: 25px;
-  border: #eac6b1 inset 2px;
-  background: linear-gradient(111deg, #cba189 0%, #eac6b1 5%, #cba189 10%);
-}
-#btn_dll_CV:hover{
-  border: #eac6b1 outset 2px;
-  background: linear-gradient(111deg, #cba189 80%, #eac6b1 85%, #cba189 90%);
+#presentation{
+  font-family: 'Poppins', 'Helvetica', sans-serif;
+  min-height: 400px;
+  color:#fff;
+  font-size: 1.8em;
+  line-height:2em;
+  width:100%;
+  margin: 0;
 }
 
-#btn_dll_CV a{
-  font-family: 'Roboto';
-  color: white;
-  font-size: 1.3em;
-} */
+.liens_Home{
+  color:#fff;
+  font-style: italic;
+
+}
 
  /* --------- STYLE DE LA PARTIE COMPETENCES ---------  */
  /* --------- STYLE DE LA PARTIE COMPETENCES ---------  */
@@ -190,7 +115,7 @@ background-color: #C42B00; */
   margin: 0;
   height: 5vh;
   padding: 2% 0 2% 5%;
-  background: #2f5162;
+  background:url("../Images/background/bannièreHome.png") repeat-x;
   font-size: 1.8em;
   text-decoration: underline;
 }
@@ -206,7 +131,6 @@ background-color: #C42B00; */
 }
 #comp_Pri{
   flex-wrap: wrap;
-  border-top: solid white 2px;
   background-color: #cba189;
   min-width: 64%;
   justify-content: space-between;
@@ -223,7 +147,6 @@ background-color: #C42B00; */
   text-shadow: 1px 1px 0px #fff;
 }
 #comp_Pro{
-  border-top: solid#cba189 2px;
   flex-direction:column;
   justify-content: space-between;
   max-width: 35%;
@@ -241,19 +164,7 @@ background-color: #C42B00; */
   border-bottom:1px solid #2f5162;
   border-radius: 2%;
 }
-/* #comp_logiciels, #comp_outils,#prog_frontback,#prog_Fram_CMS{
-  margin-top: 5px;
-  display: flex;
-  justify-content: space-between;
-  align-items:center ;
-   width: 100%;
-}
-.entrelignes{
-  height:1px; 
-  background-color: #2f5162;
-  width:50%;
-  margin: auto;
-} */
+
 #comp_prog figure{
   display: block;
   height:65px;
@@ -311,7 +222,7 @@ margin: 0 auto;
   width: 48%;
 }
 #comp_savoir{
-  background-color: #eac6b1; 
+  background-color: #E9573F; 
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -356,48 +267,6 @@ margin: 0 auto;
 #exp_right{
 text-align: right;
 }
-#dll_CV, #formulaire_Contact #btnEnvoie{ /*#formulaire_Contact  est aussi modifié dans la partie formulaire*/
-  margin: auto;
-  height: 55px;
-  background: #2f5162;
-  width: 35%;
-  border-radius: 25px;
-  border: #4f8aa8 inset 2px;
-  background: linear-gradient(111deg, #2f5162 0%, #4f8aa8 5%, #2f5162 10%);
-}
-#dll_CV:hover, #formulaire_Contact #btnEnvoie:hover{
-  border-radius: 25px;
-  border: #4f8aa8 outset 2px;
-  animation: moveGradient 0.5s 1;
-  background: linear-gradient(111deg, #2f5162 85%, #4f8aa8 90%, #2f5162 95%);
-}
-#dll_CV a, #formulaire_Contact  #btnEnvoie a{
-  color:#fff;
-  font-size: 1.2em;
-  font-family: 'Quicksand';
-  letter-spacing: normal;
-  text-transform: capitalize;
-}
-    @keyframes moveGradient{
- 0%{
-  background: linear-gradient(111deg, #2f5162 0%, #4f8aa8 5%, #2f5162 10%);
-  }
- 20%{
-    background: linear-gradient(111deg, #2f5162 15%, #4f8aa8 20%, #2f5162 25%);
-  }
-  40%{
-    background: linear-gradient(111deg, #2f5162 30%, #4f8aa8 35%, #2f5162 40%);
-  }
-  60%{
-    background: linear-gradient(111deg, #2f5162 45%, #4f8aa8 50%, #2f5162 55%);
-  }
-  80% {
-    background: linear-gradient(111deg, #2f5162 60%, #4f8aa8 70%, #2f5162 75%);
-  }
-  100% {
-    background: linear-gradient(111deg, #2f5162 80%, #4f8aa8 85%, #2f5162 90%);
-  } 
-    }
 
  /* --------- STYLE DE LA PARTIE GALERIE ---------  */
  /* --------- STYLE DE LA PARTIE GALERIE ---------  */
@@ -408,6 +277,7 @@ text-align: right;
    flex-direction: column;
    max-height: 90vh;
    min-height: 89vh;
+   background: url('../Images/background/HomePage.png');
 }
 
 #intro_illustration p{
@@ -432,7 +302,7 @@ text-align: right;
    width:300px;
    height:350px;
    border-radius:25px;
-   background:#eac6b1;
+   background:#E9573F;
    
  }
  .Previews,.photos_vignettes{
@@ -527,17 +397,13 @@ border-radius: 10%;
  
 }
 
-
-
-
-
  /* --------- STYLE DE LA PARTIE CONTACT ---------  */
  /* --------- STYLE DE LA PARTIE CONTACT ---------  */
  /* --------- STYLE DE LA PARTIE CONTACT ---------  */
  /* --------- STYLE DE LA PARTIE CONTACT ---------  */
 
  .bloc_contacts{
-  background: #393939;
+  background:url('../Images/background/HomePage.png');
  }
  .bloc_contacts h3{
    color:#fff;
@@ -628,7 +494,6 @@ border-radius: 5px;
 }
  footer{
   height: 5vh;
-  background: #242424;
   display: grid;
   width: 100%;
  }

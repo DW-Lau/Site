@@ -22,8 +22,9 @@
 			</script> 
 			-->
 
-		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet"> 
-		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Raleway:wght@200;400&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">		
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="CSS/styles.css">
 		<link rel="stylesheet" type="text/css" href="CSS/header.css">
@@ -38,13 +39,13 @@
 						<a href="#home" class="nav_links"> <i  title="Accueil" class="fas fa-home"></i></a>
 					</li>
 					<li>
-						<a href="#competences"class="nav_links"><i title="CV" class="fas fa-file-alt"></i></a>
+						<a href="#competences" class="nav_links"><i title="CV" class="fas fa-file-alt"></i></a>
 					</li>
 					<li> 
 						<a href="#galerie" class="nav_links"> <i title="Galerie"  class="far fa-images"></i></a>
 					</li>
 					<li>
-						<a href="#contact" class="nav_links"><i  title="Contact"class="fas fa-id-card"></i></a>
+						<a href="#contact" class="nav_links"><i  title="Contact" class="fas fa-id-card"></i></a>
 					</li>
 				</ul>
 			</nav>
@@ -52,27 +53,24 @@
 	<section id="bloc_contenu">
 		<div id="home" class="bloc_home">
 			<section id="p_contenu">
-				<div id="firstHome">
-					<h1>Developpeuse Web  </h1><span id="titreSwitch">Junior<br> - <br>Front-End</span>
-				</div>	
-				<div id="middleHome">
+				<aside id="bloc_logo">
 					<img src="Images/Galerie/LogoLL.png" alt="logo Laura" class="logo">
-					<div id="blocHome">
-					 <span id="presentation">
-						<p>Bonjour et bienvenu sur mon portfolio.<br>
-							Je m'appelle Laura L, retrouver <a href="#competences" class="liens_Home">mon parcours</a> et<a href="#competences" class="liens_Home"> mes projets </a>dans les lignes qui suivent.
-
-						</p>
-						
-						<p>Pour toutes questions, ou compléments d'informations, contacté moi par <a href="#contact">mail ou sur les réseaux sociaux</a>.<br>
-						</p>
-					</span>
-				
-					<button id="btn_dll_CV">
-						<a href="Images/logo.png" target="_blank" title="Télécharger CV" class="link_dll">CV disponible ici</a>
-					</button>
+				</aside>
+				<article id="home_Main">
+					<div id="banniere">
+						<h1>Developpeuse Web Front-End<br>Junior </h1>
 					</div>
-				</div>
+					<div id="presentation">
+						<p>
+							Bonjour et bienvenu .<br>
+							Je m'appelle Laura L, retrouver <a href="#competences" class="liens_Home">mon parcours</a> et<a href="#competences" class="liens_Home"> mes projets </a>dans les lignes qui suivent.
+							Pour toutes questions, ou compléments d'informations, contacté moi par <a href="#contact" class="liens_Home">mail</a> ou sur <a href="#contact" class="liens_Home">les réseaux sociaux</a>.
+						</p>
+					</div>
+					<button class="dll_CV">
+						<a href="Images/logo.png" target="_blank" title="Télécharger CV">CV disponible ici</a>
+					</button>
+				</article>
 			</section>
 		</div> 
 
@@ -174,13 +172,10 @@
 							</ul>
 						</div>
 					</div>
-						<button id="dll_CV">
-						<a href="Images/CV/CV_Laura.pdf" target="_blank" title="Télécharger CV Laura" class="link_dll">CV au format PDF </a> <!-- modifier le lien avant l'upload du site -->
+						<button class="dll_CV">
+						<a href="Images/CV/CV_Laura.pdf" target="_blank" title="Télécharger CV Laura" >CV au format PDF </a> <!-- modifier le lien avant l'upload du site -->
 					</button>
-	<span id="bottom_content">
-		
-				
-				</span>
+
 				</article>
 			
 			</section>
@@ -334,8 +329,8 @@
 				</div>
 			</article>
 			<footer>
-		<div id="mentions"> Mentions Légal, Laura 2020 ©</div>
-	</footer>
+			<div id="mentions"> Mentions Légal, Laura 2020 ©</div>
+		</footer>
 		</div>
 		
 	</section>
