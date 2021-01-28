@@ -53,23 +53,26 @@
 	<section id="bloc_contenu">
 		<div id="home" class="bloc_home">
 			<section id="p_contenu">
-				<aside id="bloc_logo">
-					<img src="Images/Galerie/LogoLL.png" alt="logo Laura" class="logo">
-				</aside>
-				<article id="home_Main">
+				
 					<div id="banniere">
 						<h1>Developpeuse Web Front-End<br>Junior </h1>
-					</div>
+					</div>	 
+				
+				<article id="home_Main">
+				<aside id="bloc_logo">
+				<img src="Images/Galerie/LogoLL.png" alt="logo Laura" class="logo">
+				</aside>
 					<div id="presentation">
 						<p>
 							Bonjour et bienvenu .<br>
 							Je m'appelle Laura L, retrouver <a href="#competences" class="liens_Home">mon parcours</a> et<a href="#competences" class="liens_Home"> mes projets </a>dans les lignes qui suivent.
+							<br>
 							Pour toutes questions, ou compléments d'informations, contacté moi par <a href="#contact" class="liens_Home">mail</a> ou sur <a href="#contact" class="liens_Home">les réseaux sociaux</a>.
 						</p>
-					</div>
+					
 					<button class="dll_CV">
 						<a href="Images/logo.png" target="_blank" title="Télécharger CV">CV disponible ici</a>
-					</button>
+					</button></div>
 				</article>
 			</section>
 		</div> 

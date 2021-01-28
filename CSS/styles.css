@@ -25,16 +25,19 @@ body,#bloc_contenu{
 }
 p{
   font-family: 'Roboto';
+  margin: 0;
 }
 .dll_CV, #formulaire_Contact #btnEnvoie{ /*#formulaire_Contact  est aussi modifié dans la partie formulaire*/
   margin: 2%;
   height: 100px;
   width: 300px;
   border-radius: 25px;
-  background: #00C4BA;
+  border:none;
+  background:linear-gradient(to right, rgba(0, 196,186, 0.8) 30%, rgba(221, 72, 42, 0) 100%);
 }
 .dll_CV:hover, #formulaire_Contact #btnEnvoie:hover{
-  background:#E9573F;
+  background:linear-gradient(to right, rgba(209, 58, 22, 0.8) 30%, rgba(221, 72, 42, 0) 100%);
+
 }
 .dll_CV a, #formulaire_Contact  #btnEnvoie a{
   color:#fff;
@@ -52,32 +55,33 @@ p{
   width:100%;
   background-image: url("../Images/background/HomePage.png");
   display: flex;
-  align-items: center;
+  flex-direction: column;
   margin: 0;
 }
 #bloc_logo{
  width: 30%;
-  background: none;
-  margin: auto;
+ background: none;
   text-align: center;
+  height: 50vh;
+  margin: auto;
 }
 .logo{
-  height:225px;
-  width: 50%;margin: auto;
+  height:200px;
+  width: 200px;
 }
 #home_Main{
-  width: 70%;
-  height: 100vh;
-  margin: 0;
+  width: 100%;
+  height: 80vh;
+  margin: auto;
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
   align-items:center;
 }
 #banniere{
-  background-image: url("../Images/background/bannièreHome.png");
-  height:300px;
-  width:100%;
+  /* background-image: url("../Images/background/bannièreHome.png"); */
+  background:linear-gradient(to right, rgba(209, 58, 22, 0.8) 30%, rgba(221, 72, 42, 0) 100%);
+  height:20vh;
+  width:70%;
 }
 #banniere h1{
   font-family: 'Poppins';
@@ -87,12 +91,15 @@ p{
 }
 #presentation{
   font-family: 'Poppins', 'Helvetica', sans-serif;
-  min-height: 400px;
+  min-height:50vh;
   color:#fff;
   font-size: 1.8em;
   line-height:2em;
-  width:100%;
-  margin: 0;
+  width:80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .liens_Home{
@@ -110,14 +117,15 @@ p{
   width: 100%;
   display: flex;
   flex-direction:column;
+  background: url("../Images/background/HomePage.png");
 }
 .bloc_competences h2,.bloc_galerie h2,.bloc_contacts h2{
   margin: 0;
   height: 5vh;
-  padding: 2% 0 2% 5%;
-  background:url("../Images/background/bannièreHome.png") repeat-x;
-  font-size: 1.8em;
-  text-decoration: underline;
+  width: 70%;
+  background:linear-gradient(to right, rgba(209, 58, 22, 0.8) 30%, rgba(221, 72, 42, 0) 100%);
+  font-size: 2.5em;
+  text-align: center;
 }
 #exp_contenu{
   display: flex;
@@ -127,11 +135,9 @@ p{
 #comp_Pro,#comp_Pri{
   display: flex;
   max-height: 95vh;
-  background:rgba(255, 255, 255, 0.95);
 }
 #comp_Pri{
   flex-wrap: wrap;
-  background-color: #cba189;
   min-width: 64%;
   justify-content: space-between;
   align-items: flex-end;
@@ -142,7 +148,6 @@ p{
   font-family: 'Raleway';
   font-size: 1.5em;
   text-align: center;
-  color: #2f5162;
   text-transform: capitalize;
   text-shadow: 1px 1px 0px #fff;
 }
@@ -160,8 +165,6 @@ p{
   height: 75%;
   margin: auto;
   padding: 30px 15px;
-  border-top:1px solid #2f5162;
-  border-bottom:1px solid #2f5162;
   border-radius: 2%;
 }
 
@@ -200,7 +203,6 @@ margin: 0 auto;
   margin: 0 auto;
 }
 #comp_savoir .fas{
-  color:#2f5162;
   font-size: 1.3em;
   border: solid #fff 2px;
 }
@@ -233,7 +235,7 @@ margin: 0 auto;
   font-size: 1em;
 }
 .fa-puzzle-piece{
-  color:#428AAD;
+  color:#00C4BA;
   font-size: 1em;
 }
 
