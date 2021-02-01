@@ -83,34 +83,66 @@
 			<h2> # Compétences </h2>
 			<section id="exp_contenu">
 					<!-- Compétences informatiques  -->
-				<article id="comp_Pro">
-					<div id="comp_prog">
-								<!-- <h3>Programmation:  </h3> -->
+				<aside id="comp_Pro">
+						<h4>Front</h4>
+						<div class="techno front">
+							<i class="fab fa-html5"></i>
+							<i class="fab fa-css3-alt"></i>
+							<i class="fab fa-js"></i>
+					
+						</div>
+					
+						<div class="techno end">
+							<h4>End</h4>
+							<i class="fab fa-php"></i>
+							<img src="Images/Icones_Logos/Vector_MySQL.png" alt="MySQL" title="MySQL" class="iconesImages">
+						</div>
+						<div class="techno cms_Frame">
+						<h4> Framework /CMS</h4>
+							<i class="fab fa-sass"></i>
+							<i class="fab fa-wordpress"></i>
+
+						</div>
+						<div class="techno software">
+						<h4>Logiciels</h4>
+							<img src="Images/Icones_Logos/Vector_Photoshop.png" alt="Photoshop" title="Photoshop" class="iconesImages">
+							<img src="Images/Icones_Logos/Vector_Illustrator.png" alt=" Illustrator" title="Illustrator" class="iconesImages">
+							<img src="Images/Icones_Logos/Vector_Indesign.png" alt="InDesign" title="InDesign" class="iconesImages">
+							<img src="Images/Icones_Logos/Figma.png" alt=" Figma" title="Figma" class="iconesImages">
+						</div>
+						<div class="techno outils">
+						<h4>Outils</h4>
+							<i class="fab fa-github"></i>
+							<i class="fab fa-codepen"></i>
+
+						</div>
+					<!-- <div id="comp_prog">
+								 <h3>Programmation:  </h3>
 								<figure><img src="Images/Logos/HTML5.png" title="HTML5" alt="HTML5"></figure>
 									<figure><img src="Images/Logos/CSS3.png" title="CSS" alt="CSS"></figure>
 									<figure><img src="Images/Logos/JavaScript.png" title="JavaScript" alt="JavaScript"></figure>
 									<figure><img src="Images/Logos/PHP.png" title="PHP" alt="PHP"></figure>
 									<figure><img src="Images/Logos/Mysql.png" title="MySQL" alt="MySQL"></figure>
 							
-								<!-- <h3> Logiciels :</h3> -->
+								 <h3> Logiciels :</h3> 
 									<figure><img src="Images/Logos/Photoshop.png" alt ="Photoshop"title="Photoshop"></figure>
 									<figure><img src="Images/Logos/Illustrator.png" title="Illustrator"></figure>
 									<figure><img src="Images/Logos/InDesign.png" title="InDesign"></figure>
 						
-								<!-- <h3>FrameWorks / CMSs </h3> -->
+								 <h3>FrameWorks / CMSs </h3>
 									<figure><img src="Images/Logos/WordPress.png" title="WordPress" alt="WordPress"></figure>
 									<figure><img src="Images/Logos/Boostrap.png" title="Boostrap" alt="Boostrap"></figure>
-									<!-- <figure class="workingProgress"><img src="Images/Logos/Sass.png" title="Sass" alt="Sass"><figcaption>*</figcaption></figure>
-									<figure class="workingProgress"><img src="Images/Logos/Angular.png" title="Angular" alt="Angular" ><figcaption >*</figcaption></figure>  -->
+								 <figure class="workingProgress"><img src="Images/Logos/Sass.png" title="Sass" alt="Sass"><figcaption>*</figcaption></figure>
+									<figure class="workingProgress"><img src="Images/Logos/Angular.png" title="Angular" alt="Angular" ><figcaption >*</figcaption></figure> 
 							
-								<!-- <h3>Outils :</h3> -->
+								<h3>Outils :</h3> 
 									<figure><img src="Images/Logos/GitHub.png" alt="Git Hub" title="GitHub"></figure>
 									<figure><img src="Images/Logos/Visual_Studio.png" title="Visual Studio" alt="Visual Studio"></figure>
 									<figure><img src="Images/Logos/Codepen.png" title="Codepen"alt="Codepen"></figure>
 
-					</div>
+					</div> -->
 					
-				</article>
+				</aside>
 				<!-- Compétences général  -->
 				<article id="comp_Pri">
 					<div id="experiences">
@@ -118,14 +150,14 @@
 						<div id="exp_left">
 							<div class="titres_exp">
 								
-									<i class="fas fa-puzzle-piece"></i>
+								<i class="far fa-dot-circle"></i>
 								<p class="ennoncer">AST Lor'N, Developpeuse Web<br>11/2018-11/2019</p>
 							</div>	<!-- fin div titres_exp -->
 							<div class="titres_exp">
 								
-								<i class="fas fa-puzzle-piece"></i>
-							<p class="ennoncer">Projet Openclassroom,( Formation, DWJ )<br>2017-2018 </p>
-						</div>	<!-- fin div titres_exp -->
+								<i class="far fa-dot-circle"></i>
+								<p class="ennoncer">Projet Openclassroom,( Formation, DWJ )<br>2017-2018 </p>
+							</div>	<!-- fin div titres_exp -->
 						
 
 						</div>
@@ -134,13 +166,13 @@
 						<h3>Formations :</h3>
 						<div id="exp_right">
 							<div class="titres_formations">
-								<p class="ennoncer">Developpeuse Web Junior, Openclassroom<br>2017-2018 </p>
-									<i class="fas fa-puzzle-piece"></i>
+							<i class="far fa-dot-circle"></i>	<p class="ennoncer">Developpeuse Web Junior, Openclassroom<br>2017-2018 </p>
+								
 								
 							</div>	<!-- fin div titres_exp -->
 							<div class="titres_formations">
 								
-								
+								<i class="far fa-dot-circle"></i>
 							<p class="ennoncer">Licence Image et Son Numériques <br>2011-2012</p><i class="fas fa-puzzle-piece"></i>
 						</div>	<!-- fin div titres_exp -->
 						
@@ -332,7 +364,7 @@
 				</div>
 			</article>
 			<footer>
-			<div id="mentions"> Mentions Légal, Laura 2020 ©</div>
+			<div id="mentions"> <a href="mentions.html">Mentions Légal</a> , Laura 2021 ©</div>
 		</footer>
 		</div>
 		

@@ -25,7 +25,24 @@ body,#bloc_contenu{
 }
 p{
   font-family: 'Roboto';
+  color:#fff;
   margin: 0;
+}
+
+.bloc_competences,.bloc_galerie,.bloc_contacts{
+  min-height:100vh ;
+  width: 100%;
+  display: flex;
+  flex-direction:column;
+  background: url("../Images/background/HomePage.png");
+}
+.bloc_competences h2,.bloc_galerie h2,.bloc_contacts h2{
+  margin: 0;
+  height: 7vh;
+  width: 70%;
+  background:linear-gradient(to right, rgba(209, 58, 22, 0.8) 30%, rgba(221, 72, 42, 0) 100%);
+  font-size: 2.5em;
+  text-align: center;
 }
 .dll_CV, #formulaire_Contact #btnEnvoie{ /*#formulaire_Contact  est aussi modifié dans la partie formulaire*/
   margin: 2%;
@@ -112,164 +129,62 @@ p{
  /* --------- STYLE DE LA PARTIE COMPETENCES ---------  */
  /* --------- STYLE DE LA PARTIE COMPETENCES ---------  */
  /* --------- STYLE DE LA PARTIE COMPETENCES ---------  */
-.bloc_competences,.bloc_galerie,.bloc_contacts{
-  min-height:100vh ;
-  width: 100%;
-  display: flex;
-  flex-direction:column;
-  background: url("../Images/background/HomePage.png");
-}
-.bloc_competences h2,.bloc_galerie h2,.bloc_contacts h2{
-  margin: 0;
-  height: 5vh;
-  width: 70%;
-  background:linear-gradient(to right, rgba(209, 58, 22, 0.8) 30%, rgba(221, 72, 42, 0) 100%);
-  font-size: 2.5em;
-  text-align: center;
-}
+
+
+
 #exp_contenu{
   display: flex;
+  justify-content: space-around;
   min-height: 89vh;
   max-height: 90vh;
 }
 #comp_Pro,#comp_Pri{
   display: flex;
-  max-height: 95vh;
-}
-#comp_Pri{
-  flex-wrap: wrap;
-  min-width: 64%;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-#comp_Pri h3{
-  margin: 5px ;
-  max-height: 3;
-  font-family: 'Raleway';
-  font-size: 1.5em;
-  text-align: center;
-  text-transform: capitalize;
-  text-shadow: 1px 1px 0px #fff;
+  flex-direction: column;
+  height: 65vh;
+  margin: auto;
+  border-radius: 25px;
+  background:linear-gradient(336.04deg, rgba(107, 107, 107, 0.04) 0%, rgba(255, 255, 255, 0.16) 100%);
 }
 #comp_Pro{
-  flex-direction:column;
-  justify-content: space-between;
-  max-width: 35%;
-}
-#comp_prog{
-  display: flex;
-  flex-wrap: wrap;
-  align-content: space-between;
-  width: 90%;
-  max-width: 100%;
-  height: 75%;
-  margin: auto;
-  padding: 30px 15px;
-  border-radius: 2%;
-}
-
-#comp_prog figure{
-  display: block;
-  height:65px;
-  margin: 0;
-  max-width: 25%;
-  min-width: 24%;
-}
-#comp_prog figure img{
-  max-width: 100%;
-  max-height:100%;
-  text-align: center;
-}
-#comp_prog figcaption{
-  height:15px;
-}
-.workingProgress{
-color:#2f5162;
-}
-.workingProgress:hover::after{
-  content: " en cours";
-  color: black;
-  position: relative;
-  top:-30%;
-  left:5%;
-  font-size: 1em;
-} 
-#comp_savoir ul{
-display: inline;
-margin: 0 auto;
-}
-#comp_savoir li{
-  height: 20%;
-  margin: 0 auto;
-}
-#comp_savoir .fas{
-  font-size: 1.3em;
-  border: solid #fff 2px;
-}
-.title_exep{
-  width: 100%;
-}
-#experiences{
-  padding-left:2%;
-}
-#formations{
-  padding-right:2%;
-}
- #experiences,#formations{
-  background-color: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  height:275px;
-  width: 48%;
-}
-#comp_savoir{
-  background-color: #E9573F; 
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  min-height: 35%;
-  max-height: 50%;
-  width: 100%;
-  font-family: 'Raleway';
-  font-size: 1em;
-}
-.fa-puzzle-piece{
-  color:#00C4BA;
-  font-size: 1em;
-}
-
-#exp_right .fa-puzzle-piece{
-  transform: rotate( 90deg);
-}
-#exp_left,#exp_right{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin:0;
-  max-height: 200px;
-  min-height: 150px;
-}
-.titres_exp,.titres_formations{
-  display: flex;
   align-items: center;
-  width: 100%;
+  width: 30%; 
 }
-.titres_formations{
-  justify-content: end;
+#comp_Pri{
+  width: 60%;
 }
-.ennoncer{
-  margin: 0;
-  font-size: 1em;
-  font-family: 'Raleway';
-  line-height: 1.3em;
-  min-width: 85%;
-  text-align: center;
+.techno{
+  display: flex;
+  justify-content: space-around;
+  width:80%;
+  margin: auto;
 }
-#exp_right{
-text-align: right;
+.techno .fab{
+ color:#fff;
+ font-size: 5em;;
 }
+.iconesImages{
+  height:80px;
+  width: 70px;
 
+}
+h4{
+  opacity: 0;
+  width: 450px; 
+  position: absolute;
+  z-index: 1;
+  font-family: 'Poppins';
+  color: #fff;
+  font-size: 2em; 
+  text-align: center;
+  margin: auto;
+}
+h4:hover {
+  opacity: 1;
+  background: linear-gradient(90deg, rgba(32,34,36,0) 10%, rgba(233,86,63,1) 50%, rgba(32,34,36,0) 90%); 
+ 
+
+}
  /* --------- STYLE DE LA PARTIE GALERIE ---------  */
  /* --------- STYLE DE LA PARTIE GALERIE ---------  */
  /* --------- STYLE DE LA PARTIE GALERIE ---------  */
