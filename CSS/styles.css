@@ -122,15 +122,12 @@ p{
 .liens_Home{
   color:#fff;
   font-style: italic;
-
 }
 
  /* --------- STYLE DE LA PARTIE COMPETENCES ---------  */
  /* --------- STYLE DE LA PARTIE COMPETENCES ---------  */
  /* --------- STYLE DE LA PARTIE COMPETENCES ---------  */
  /* --------- STYLE DE LA PARTIE COMPETENCES ---------  */
-
-
 
 #exp_contenu{
   display: flex;
@@ -166,7 +163,6 @@ p{
 .iconesImages{
   height:80px;
   width: 70px;
-
 }
 h4{
   opacity: 0;
@@ -177,13 +173,13 @@ h4{
   color: #fff;
   font-size: 2em; 
   text-align: center;
-  margin: auto;
+  margin: 5px auto;
+  border-radius: 25px;
+  background: linear-gradient(90deg, rgba(32,34,36,0) 10%, rgba(233,86,63,1) 50%, rgba(32,34,36,0) 90%); 
 }
 h4:hover {
   opacity: 1;
-  background: linear-gradient(90deg, rgba(32,34,36,0) 10%, rgba(233,86,63,1) 50%, rgba(32,34,36,0) 90%); 
  
-
 }
  /* --------- STYLE DE LA PARTIE GALERIE ---------  */
  /* --------- STYLE DE LA PARTIE GALERIE ---------  */
@@ -202,116 +198,87 @@ h4:hover {
    width: 80%;
    text-align: center;
    height: 5vh;
-}
+ }
+ 
 #all_cases{
-  width: 80%;
-  margin: auto;
+  width:95%;
+  margin:auto;
+  box-sizing: content-box;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  height: 78vh;
- }
- .vignettes{
-   display:flex;
-   flex-direction:column;
-   background:#fff;
-   width:300px;
-   height:350px;
-   border-radius:25px;
-   background:#E9573F;
-   
- }
- .Previews,.photos_vignettes{
-   border-top-left-radius:25px;
-   border-top-right-radius:25px;
-   width:300px;
-   margin:0;
-   height:245px;
- }
- .vignettes:hover,.btn_projets:hover{
-   transform:scale(1.01);
- }
- .btn_projets:hover,.btn_projets a:hover{
-   cursor:alias;
- }
- .txts_vignettes{
-  height:105px;
-  width:100%;
-  font-size:1em;
-  font-family:'Roboto';
-  border-bottom-left-radius:25px;
-  border-bottom-right-radius:25px;
- }
- .legendes{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-content: center;
 }
-.projetUn p{
-  font-size: 0.9;
+.chevrons{
+  position: absolute;
+  z-index: 10;
+  width: 50%;
+  top: 50%;
 }
- .txts_vignettes p{
-
-   margin:auto;
-   width: 90%;
-   padding:5px;
- }
- .btn_projets{
-   height:50px;
-   width:120px;
-   border:solid #000 2px;
-   background:#fff;
-   margin:auto;
- }
+.fa-chevron-left, .fa-chevron-right {
+  color: #00C4BA;
+  font-size: 1.5em;
+}
+.tuilles{
+  box-sizing: content-box;
+  width:33% ;
+  min-height:299px ;
+  max-height: 300px;
+  margin:0; position: relative;
+}
+.tuilles img{
+  width: 100%;
+  height:300px ;
  
- .btn_projets a{
-   text-decoration:none;
-   font-size:1.1em;
-   color:#000;
-   font-family:'Roboto';
- }
- 
+  z-index: 1;
+}  
 
-/*.projets_galerie{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width:400px;
-  max-height:350px;
-  margin: 0;
-  border-radius: 5%;
+.overlay a h5 ,.overlay a,.overlay h5, .overlay p {
+  font-family: 'Roboto';
+  color:#242424;
+  margin: auto;
+  width: 90%;
+}  
+.overlay p{
+  font-size: 1.1em;
+  line-height: 1.8em;
+  text-align: justify;
 }
-.projets_galerie img{   
-  border: #fff 2px solid;
-  padding:5px;
-  max-width:400px;
-  min-width:250px ; 
-  max-height:350px;
-  min-height:220px;
-  border-radius: 5%;
-} 
-.texts_galerie{
-  margin: 5px;
-  padding: 5px;
-  font-family: 'Raleway' ;
-  text-align: center;
+@keyframes ani_overlay{ 
+  0%{
+      clip-path: circle(00% at 0 0);
+  }
+  100%{
+      clip-path:circle(100% at 0 0);
+     
+    }
 }
-.projets_galerie a:hover,.projets_galerie .image_zoom:hover~.legendes{   
-transform: scale(1.1);
-border-radius: 10%;
-} */
 
-
-#chevrons-L,#chevrons-R{
+.overlay{
+  opacity: 0;
+  position: absolute;
   display: inline;
-  width: 50px;
-  height: 50px; color: #2f5162;
+  background:linear-gradient(336.04deg, rgba(107, 107, 107, 0.04) 0%, rgba(255, 255, 255, 1) 100%);
+  top: 0;
+  width: 90%;
+  height:90%;
 }
-.fa-chevron-left a,.fa-chevron-right a{
-  width: 50px;
-  font-size: 1em;
+.overlay  h5{
+  font-size: 1.5em;
+  text-align: center;
+  margin: 5px auto;
+}
+.overlay a{
+  height: 100%;   
+}
+.overlay__liens{
+  text-decoration: underline;
+}
+.overlay:hover{
+  opacity: 1;
  
+  border-bottom-right-radius:25px ;
+  animation: ani_overlay 0.5s;
+  /* background:linear-gradient(to right, rgba(0, 196,186, 0.9) 20%, rgba(221, 72, 42, 0) 100%); */
 }
 
  /* --------- STYLE DE LA PARTIE CONTACT ---------  */

@@ -65,9 +65,9 @@
 					<div id="presentation">
 						<p>
 							Bonjour et bienvenu .<br>
-							Je m'appelle Laura L, retrouver <a href="#competences" class="liens_Home">mon parcours</a> et<a href="#competences" class="liens_Home"> mes projets </a>dans les lignes qui suivent.
+							Je m'appelle Laura L, retrouvez <a href="#competences" class="liens_Home">mon parcours</a> et<a href="#competences" class="liens_Home"> mes projets </a>dans les lignes qui suivent.
 							<br>
-							Pour toutes questions, ou compléments d'informations, contacté moi par <a href="#contact" class="liens_Home">mail</a> ou sur <a href="#contact" class="liens_Home">les réseaux sociaux</a>.
+							Pour toutes questions, ou compléments d'informations: <a href="#contact" class="liens_Home">Mail</a> ou <a href="#contact" class="liens_Home">Réseaux sociaux</a>.
 						</p>
 					
 					<button class="dll_CV">
@@ -118,27 +118,27 @@
 						</div>
 					<!-- <div id="comp_prog">
 								 <h3>Programmation:  </h3>
-								<figure><img src="Images/Logos/HTML5.png" title="HTML5" alt="HTML5"></figure>
-									<figure><img src="Images/Logos/CSS3.png" title="CSS" alt="CSS"></figure>
-									<figure><img src="Images/Logos/JavaScript.png" title="JavaScript" alt="JavaScript"></figure>
-									<figure><img src="Images/Logos/PHP.png" title="PHP" alt="PHP"></figure>
-									<figure><img src="Images/Logos/Mysql.png" title="MySQL" alt="MySQL"></figure>
+								<div><img src="Images/Logos/HTML5.png" title="HTML5" alt="HTML5"></div>
+									<div><img src="Images/Logos/CSS3.png" title="CSS" alt="CSS"></div>
+									<div><img src="Images/Logos/JavaScript.png" title="JavaScript" alt="JavaScript"></div>
+									<div><img src="Images/Logos/PHP.png" title="PHP" alt="PHP"></div>
+									<div><img src="Images/Logos/Mysql.png" title="MySQL" alt="MySQL"></div>
 							
 								 <h3> Logiciels :</h3> 
-									<figure><img src="Images/Logos/Photoshop.png" alt ="Photoshop"title="Photoshop"></figure>
-									<figure><img src="Images/Logos/Illustrator.png" title="Illustrator"></figure>
-									<figure><img src="Images/Logos/InDesign.png" title="InDesign"></figure>
+									<div><img src="Images/Logos/Photoshop.png" alt ="Photoshop"title="Photoshop"></div>
+									<div><img src="Images/Logos/Illustrator.png" title="Illustrator"></div>
+									<div><img src="Images/Logos/InDesign.png" title="InDesign"></div>
 						
 								 <h3>FrameWorks / CMSs </h3>
-									<figure><img src="Images/Logos/WordPress.png" title="WordPress" alt="WordPress"></figure>
-									<figure><img src="Images/Logos/Boostrap.png" title="Boostrap" alt="Boostrap"></figure>
-								 <figure class="workingProgress"><img src="Images/Logos/Sass.png" title="Sass" alt="Sass"><figcaption>*</figcaption></figure>
-									<figure class="workingProgress"><img src="Images/Logos/Angular.png" title="Angular" alt="Angular" ><figcaption >*</figcaption></figure> 
+									<div><img src="Images/Logos/WordPress.png" title="WordPress" alt="WordPress"></div>
+									<div><img src="Images/Logos/Boostrap.png" title="Boostrap" alt="Boostrap"></div>
+								 <div class="workingProgress"><img src="Images/Logos/Sass.png" title="Sass" alt="Sass"><figcaption>*</figcaption></div>
+									<div class="workingProgress"><img src="Images/Logos/Angular.png" title="Angular" alt="Angular" ><figcaption >*</figcaption></div> 
 							
 								<h3>Outils :</h3> 
-									<figure><img src="Images/Logos/GitHub.png" alt="Git Hub" title="GitHub"></figure>
-									<figure><img src="Images/Logos/Visual_Studio.png" title="Visual Studio" alt="Visual Studio"></figure>
-									<figure><img src="Images/Logos/Codepen.png" title="Codepen"alt="Codepen"></figure>
+									<div><img src="Images/Logos/GitHub.png" alt="Git Hub" title="GitHub"></div>
+									<div><img src="Images/Logos/Visual_Studio.png" title="Visual Studio" alt="Visual Studio"></div>
+									<div><img src="Images/Logos/Codepen.png" title="Codepen"alt="Codepen"></div>
 
 					</div> -->
 					
@@ -148,18 +148,13 @@
 					<div id="experiences">
 						<h3>Expériences :</h3>
 						<div id="exp_left">
-							<div class="titres_exp">
 								
-								<i class="far fa-dot-circle"></i>
+								<!-- <i class="far fa-dot-circle"></i> -->
 								<p class="ennoncer">AST Lor'N, Developpeuse Web<br>11/2018-11/2019</p>
-							</div>	<!-- fin div titres_exp -->
-							<div class="titres_exp">
-								
-								<i class="far fa-dot-circle"></i>
+							
+								<!-- <i class="far fa-dot-circle"></i> -->
 								<p class="ennoncer">Projet Openclassroom,( Formation, DWJ )<br>2017-2018 </p>
-							</div>	<!-- fin div titres_exp -->
-						
-
+							
 						</div>
 					</div>
 					<div id="formations">
@@ -220,75 +215,86 @@
 			<h2> # Galerie </h2>
 			<section id="illustrations">
 				<aside id="intro_illustration">
-					<p>Similes celsius nec dispexerint nec nec vastabant parvi hostes umquam poterat optandi nec inmorantur hostes citroque amici nec inveniri nec praedam aut quicquid si citroque momento citroque ultro citroque qui.</p>
+					<p>Technologies et résumés des projets sont disponbles directement sur les vignettes, depuis leur coin gauche. D'autres projets viendront prochaimenent compléter cette liste, n'hésitez pas à la consulter régulièrement</p>
 				</aside>
 				<div class="entrelignes"></div>
 				<article id="all_cases">
-				 <div class="vignettes">
-						 <figure class="projetUn Previews">
-							<img src="Images/Galerie/Sauvegardes/Laptop/home.png" id="carrousel" class="photos_vignettes" title="projet" al t="projet">
-						</figure>
-							<figcaption class="txts_vignettes">
-								<div class="legendes">
-									<a href="#galerie" onclick="changeBg(-1)" , return false , id="chevron-l">
-								<i id="chevrons-L" class="fa fa-chevron-left" aria-hidden="true"></i></a>
-									
-								
-								<p>"AST Lor'N" est devenue "AGESTRA". <br>Le site n'étant donc plus d'actualité, vous pouvez consulter quelques screens </p>
-							<a href="#galerie" onclick="changeBg(1)" , return false , id="chevron-r"> 
-								<i id="chevrons-R" class="fa fa-chevron-right" aria-hidden="true"></i></a></div>
-							</figcaption> 
-					</div>	 
-
-					<div class="vignettes">
-						<figure class="projetDeux Previews">
-							<img src="Images/Galerie/Projet1.PNG" class="photos_vignettes" title="projet" alt="projet">
-						</figure>	
-
-						<figcaption class="txts_vignettes">
-							<p>Projet formation Openclassroom</p>
-							<button class="btn_projets">
-								<a href="http:www.projet1.laura-lariccia.fr"> Voir le projet</a>
-							</button>
-						</figcaption>
+					<div class="tuilles">
+						<div class="overlay">
+								<h5>AST Lor'N </h5>
+							<p>
+								Depuis le 1er Janvier 2020, "AST Lor'N" est devenue "AGESTRA". </br>
+								Le site n'étant donc plus d'actualité, vous pouvez consulter quelques screens shoots depuis ce diaporama.</br>
+								Dans un soucis de confidencialité, les textes ont été floutés.</br>
+								(CMS: Wordpress - JS-PHP)
+							</p>
+							</div>	
+						<span class="chevrons">
+							<a href="#galerie" onclick="changeBg(-1)" , return false , id="chevron--left">
+								<i id="chevrons-L" class="fa fa-chevron-left" aria-hidden="true"></i>
+							</a>
+						</span>	
+							<img src="Images/Galerie/Sauvegardes/Laptop/home.png" id="carrousel" class="photos--vignettes" title="AST Lor'n" alt="AST Lor'N">
+						<span class="chevrons">
+							<a href="#galerie" onclick="changeBg(1)" , return false , id="chevron--right"> 
+								<i id="chevrons-R" class="fa fa-chevron-right" aria-hidden="true"></i>
+							</a>
+						</span>
+					</div>
+<!--Projet OPENCLASSROOM 1 -->
+					 <div class="tuilles"> 
+						<div class="overlay">
+								<h5 > WebAgency</h5>
+								<p> (Projet 1 OpenclassRooms)</br>
+									A partir d'une maquette, créer le site de la WebAgency. Site responsive</br> (HTML/CSS)</p>
+							</div>
+						<a href="http:www.projet1.laura-lariccia.fr"  target="_blank" >
+							<img src="Images/Galerie/Projet1.PNG" class="photos--vignettes" title="WebAgency" alt="WebAgency">
+						</a>
+					</div>
+<!--Projet OPENCLASSROOM 3 -->
+					<div class="tuilles">
+						<div class="overlay">
+								<h5>Vélib'</h5>
+									<p>
+										(Projet 3 OpenclassRooms) Réaliser un site de réservation de vélo ( Vélib' Paris, lors de l'évaluation). </br>
+										L'API est re-centré sur la ville de Lyon (nouvelle évaluation) </br>(HTML/CSS-JS/JSON).</br>
+										<strong>Une nouvelle version du site est en cours</strong> 
+									</p>
+						</div>
+						<a href="www.projet3.laura-lariccia.fr"  target="_blank">
+							<img src="Images/Galerie/Projet3.PNG" class="photos--vignettes" title="Vélib'Paris " alt="Vélib' Paris">
+						</a>
+					</div>
+<!--Projet OPENCLASSROOM 4 -->
+					<div class="tuilles">
+						<div class="overlay">
+							<h5>Billet simple pour l'Alaska</h5>
+								<p>
+									(Projet 4 OpenclassRooms) Réaliser un blog pour un écrivain : Jean-RocheFort, Billet simple pour l'Alaska.</br> 
+									Création de compte administrateur et utilisateurs. Création et suppression de messages et commentaires. </br>(HTML/CSS-JS-PHP-MySQL) </br>
+									<a href="https://github.com/DW-Lau/Projet4" class="overlay__liens">GIT</a>du projet. 
+								</p>
+						</div>
+						<a href="www.projet4.laura-lariccia.fr"  target="_blank">
+							<img src="Images/Galerie/Projet4.PNG" class="photos--vignettes" title="Billet simple pour l'Alaska" alt="Billet simple pour l'Alaska">
+						</a>
+					</div>
+<!--Projet OPENCLASSROOM 5 -->
+					<div class="tuilles">
+						<div class="overlay">
+							<h5>Projet Libre : Blender Open Projects</h5>
+								<p>
+									(Projet 5 OpenclassRooms) Fondation Blender: Présentation des films Blender Open Projects.
+									Création de compte administrateur et utilisateurs, sélection d'avatar. Création et suppression de messages et commentaires. </br>(HTML/CSS-JS-PHP-MySQL) </br>
+									<a href="https://github.com/DW-Lau/Projet5" class="overlay__liens">GIT</a>du projet. 
+								</p>
+							</div>
+						<a href="www.projet5.laura-lariccia.fr"  target="_blank">
+							<img src="Images/Galerie/Projet5.PNG" class="photos--vignettes" title="Projet Libre : Blender Open Projects" alt="Projet Libre : Blender Open Projects">
+						</a>
 					</div>
 
-					<div class="vignettes">
-						<figure class="projetTrois Previews">
-							<img src="Images/Galerie/Projet3.PNG" class="photos_vignettes" title="projet" alt="projet">
-						</figure>	
-
-						<figcaption class="txts_vignettes">
-							<p>Projet formation Openclassroom</p>
-							<button class="btn_projets">
-								<a href="www.projet3.laura-lariccia.fr"> Voir le projet</a>
-							</button>
-						</figcaption>
-					</div>
-					<div class="vignettes">
-						<figure class="projetQuatre Previews">
-							<img src="Images/Galerie/Projet4.PNG" class="photos_vignettes" title="projet" alt="projet">
-						</figure>	
-
-						<figcaption class="txts_vignettes">
-							<p>Projet formation Openclassroom</p>
-							<button class="btn_projets">
-								<a href="www.projet4.laura-lariccia.fr"> Voir le projet</a>
-							</button>
-						</figcaption>
-					</div>
-					<div class="vignettes">
-						<figure class="projetCinq Previews">
-							<img src="Images/Galerie/Projet5.PNG" class="photos_vignettes" title="projet" alt="projet">
-						</figure>	
-
-						<figcaption class="txts_vignettes">
-							<p>Projet formation Openclassroom</p>
-							<button class="btn_projets">
-								<a href="www.projet5.laura-lariccia.fr"> Voir le projet</a>
-							</button>
-						</figcaption>
-					</div>
 				</article>
 			</section>
 			</div>
